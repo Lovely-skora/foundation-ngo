@@ -114,8 +114,8 @@
                         <!-- Section title Start -->
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Our Impact</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Creating Change That Truly Matters</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Through dedicated programs, transparent processes, & long-term commitment, we ensure every effort leads to meaningful and lasting impact.</p>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Creating Meaningful Change Through Compassionate Action</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Since its establishment in 2010, Life Foundation has been continuously working towards empowering vulnerable and marginalized communities through humanitarian service, social welfare, child protection, education, healthcare, livelihood support, rehabilitation, and sustainable development initiatives.</p>
                         </div>
                         <!-- Section title End -->
 
@@ -127,7 +127,7 @@
                                     <h2><span class="counter">15</span><sup>+</sup></h2>
                                 </div>
                                 <div class="our-impact-item-body">
-                                    <h3>Years of Service</h3>
+                                    <h3>Years of Humanitarian Service</h3>
                                 </div>
                             </div>
                             <!-- Our Impact Item Start -->
@@ -138,17 +138,18 @@
                                     <h2><span class="counter">10,000</span><sup>+</sup></h2>
                                 </div>
                                 <div class="our-impact-item-body">
-                                    <h3>Lives Impacted</h3>
+                                    <h3>Lives Reached & Supported
+                                    </h3>
                                 </div>
                             </div>
 
                             <!-- Our Impact Item Start -->
                             <div class="our-impact-item wow fadeInUp">
                                 <div class="our-impact-item-header">
-                                    <h2><span class="counter">20</span><sup>+</sup></h2>
+                                    <h2><span class="counter">200</span><sup>+</sup></h2>
                                 </div>
                                 <div class="our-impact-item-body">
-                                    <h3>Awareness Programs</h3>
+                                    <h3>Awareness & Community Programs</h3>
                                 </div>
                             </div>
                             <!-- Our Impact Item Start -->
@@ -156,10 +157,10 @@
                             <!-- Our Impact Item Start -->
                             <div class="our-impact-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="our-impact-item-header">
-                                    <h2><span class="counter">10</span><sup>+</sup></h2>
+                                    <h2><span class="counter">25</span><sup>+</sup></h2>
                                 </div>
                                 <div class="our-impact-item-body">
-                                    <h3>Villages Reached</h3>
+                                    <h3>Bedded -Child Care Institution</h3>
                                 </div>
                             </div>
                             <!-- Our Impact Item Start -->
@@ -180,11 +181,11 @@
                 <div class="col-xl-7 ">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 01</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Women Empowerment & Gender Equality</h2>
+                            <span class="section-sub-title wow fadeInUp">AREAS OF IMPACT</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">1. CHILD PROTECTION & REHABILITATION</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Life Foundation is committed to empowering women socially, economically, educationally, and emotionally by creating opportunities that promote self-reliance, dignity, leadership, and equality. The organization believes that empowering women is essential for building stronger families, healthier communities, and sustainable social development.</p>
-                            <p>Through various initiatives, Life Foundation supports women in developing skills, accessing livelihood opportunities, enhancing awareness about rights and health, and participating actively in social and economic activities.</p>
+                                Life Foundation works towards ensuring the safety, care, protection, rehabilitation, emotional wellbeing, and holistic development of vulnerable children through child-centered initiatives and institutional care services.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -202,10 +203,9 @@
                         <div class="approach-item-content">
                             <p>Key Activities:</p>
                             <ul>
-                                <li>Vocational & Skill Development Training</li>
-                                <li>Entrepreneurship Development Programs</li>
-                                <li>Awareness on Women Rights & Legal Protection</li>
-                                <li>Financial Literacy & Self-Reliance Programs</li>
+                                <li>Child Protection</li>
+                                <li>Residential Care</li>
+                                <li>Rehabilitation Support</li>
 
                             </ul>
                         </div>
@@ -218,10 +218,9 @@
                             <p>Key Activities:</p>
                             <ul>
 
-                                <li>Health & Hygiene Awareness</li>
-                                <li>Leadership & Capacity Building Workshops</li>
-                                <li>Support for Vulnerable Women & Widows</li>
-                                <li>Community Participation Initiatives</li>
+                                <li>Emotional & Psychological Care</li>
+                                <li>Child Rights Awareness</li>
+                                <li>Reintegration Support</li>
                             </ul>
                         </div>
                     </div>
@@ -229,22 +228,13 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure class="">
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="">
-                        </figure>
-                    </div>
-                </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 02</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Child Welfare, Education & Protection</h2>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">2. SPECIALIZED ADOPTION & FAMILY CARE</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Children are the foundation of a brighter future, and Life Foundation works towards ensuring their protection, education, wellbeing, rehabilitation, and holistic development. The organization undertakes initiatives that focus on child rights, educational support, nutrition, emotional wellbeing, and protection from neglect, exploitation, abuse, trafficking, child labour, child marriage, and social vulnerability.</p>
-                            <p>We strive to create safe, supportive, and nurturing environments where every child can grow with dignity, confidence, protection, and opportunity.</p>
+                                Through the Specialized Adoption Agency (SAA), Life Foundation supports ethical, transparent, and legally compliant adoption services aimed at ensuring every child grows in a safe, loving, and supportive family environment. </p>
                         </div>
                     </div>
                 </div>
@@ -252,15 +242,11 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p>Key Activities:</p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Educational Support Programs</li>
-                                <li>Child Protection Awareness</li>
-                                <li>Nutrition & Health Support</li>
-                                <li>Counselling & Emotional Support</li>
-                                <li>Child Care & Shelter Support</li>
-                                <li>School Awareness Campaigns</li>
-
+                                <li>Adoption Support Services</li>
+                                <li>Child Rehabilitation</li>
+                                <li>Family-Based Care</li>
                             </ul>
                         </div>
                     </div>
@@ -269,114 +255,29 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p>Key Activities:</p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Distribution of Educational Materials</li>
-                                <li>Community-Based Child Welfare Initiatives</li>
-                                <li>Child Rights Protection Initiatives</li>
-                                <li>Child Marriage Awareness Programs</li>
-                                <li>Child Labour Awareness Programs</li>
-                                <li>Child Trafficking
-                                    Awareness Programs</li>
-                                <li>Child Protection Policy Awareness</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="why-choose-us-content mb-4">
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 03</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Child Care Institution (CCI)
-                            </h2>
-
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Child Care, Rehabilitation & Protection Services</strong>
-                            </p>
-
-                            <p>
-                                The Child Care Institution (CCI) operated by Life Foundation is a residential care home established for children in need of care and protection under the Juvenile Justice (Care and Protection of Children) Act, 2015.
-                            </p>
-
-                            <p>
-                                The institution provides a safe, caring, child-friendly, and nurturing environment where vulnerable children receive protection, healthcare, education, emotional support, counseling, rehabilitation, and opportunities for holistic development.
-                            </p>
-
-                            <p>
-                                The Children Home aims to restore dignity, stability, confidence, and hope in the lives of children who require care, support, and protection.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution">
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
-                            <ul>
-                                <li>Safe Shelter & Residential Care</li>
-                                <li>Educational & Learning Support</li>
-                                <li>Nutrition & Healthcare Services</li>
                                 <li>Counseling & Emotional Support</li>
+                                <li>Child Welfare Coordination</li>
+                                <li>Post-Adoption Follow-Up</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
-                            <ul>
-                                <li>Individual Care Plans (ICP)</li>
-                                <li>Rehabilitation & Reintegration Support</li>
-                                <li>Vocational & Life Skill Activities</li>
-                                <li>Child Rights & Protection Services</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Specialized Adoption Agency">
-                        </figure>
-                    </div>
-                </div>
+            <!-- Program 03 -->
 
-                <div class="col-xl-7">
+            <div class="row">
+
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 04</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Specialized Adoption Agency (SAA)
-                            </h2>
-
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">3. WOMEN EMPOWERMENT & LIVELIHOOD</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Adoption, Family Care & Child Rehabilitation Services</strong>
-                            </p>
-
-                            <p>
-                                The Specialized Adoption Agency (SAA) operated by Life Foundation is a government-recognized child care and adoption facility established for the care, protection, rehabilitation, and legal adoption of orphaned, abandoned, and surrendered children in accordance with the Juvenile Justice Act, 2015 and CARA guidelines.
-                            </p>
-
-                            <p>
-                                The agency works towards ensuring that every child receives the opportunity to grow up in a safe, loving, secure, and nurturing family environment through ethical, transparent, and legally compliant adoption procedures.
+                                The organization promotes social and economic empowerment of women through awareness, leadership development, vocational training, and livelihood support initiatives.
                             </p>
                         </div>
                     </div>
@@ -385,12 +286,11 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Child Care & Protection Services</li>
-                                <li>Adoption Counseling & Guidance</li>
-                                <li>Rehabilitation & Emotional Support</li>
-                                <li>Legal Adoption Coordination</li>
+                                <li>Skill Development</li>
+                                <li>Entrepreneurship Support</li>
+                                <li>Financial Literacy</li>
                             </ul>
                         </div>
                     </div>
@@ -399,45 +299,30 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Child Documentation & Record Management</li>
-                                <li>Foster Care & Family-Based Support</li>
-                                <li>Counseling for Prospective Adoptive Parents</li>
-                                <li>Post-Adoption Follow-Up Services</li>
+                                <li>Leadership Building</li>
+                                <li>Women Rights Awareness</li>
+                                <li>Self-Reliance Promotion</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Education, Literacy & Digital Inclusion">
-                        </figure>
-                    </div>
-                </div>
+            <!-- Program 04 -->
 
-                <div class="col-xl-7">
+            <div class="row">
+
+
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 05</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Education, Literacy & Digital Inclusion
-                            </h2>
-
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">4. EDUCATION & CHILD DEVELOPMENT</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Education, Learning & Digital Empowerment</strong>
-                            </p>
-
-                            <p>
-                                Life Foundation believes that education is one of the most powerful tools for empowerment and social transformation. The organization promotes both formal and non-formal education while encouraging digital literacy, life skills, and vocational learning among children, youth, women, and disadvantaged communities.
-                            </p>
-
-                            <p>
-                                The program aims to bridge educational gaps and improve access to learning opportunities, especially for economically weaker and underserved populations.
+                                Life Foundation believes education is essential for empowerment and social transformation. The organization supports learning opportunities, educational awareness, and child development initiatives for vulnerable children and youth.
                             </p>
                         </div>
                     </div>
@@ -446,12 +331,11 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Non-Formal Education Support</li>
-                                <li>Digital Literacy Programs</li>
-                                <li>Career Guidance & Counselling</li>
-                                <li>Educational Awareness Campaigns</li>
+                                <li>Educational Support</li>
+                                <li>Learning Materials Distribution</li>
+                                <li>Awareness Programs</li>
                             </ul>
                         </div>
                     </div>
@@ -460,60 +344,31 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Distribution of Learning Resources</li>
-                                <li>Life Skills Training</li>
-                                <li>Vocational & Technical Education Support</li>
-                                <li>Student Development Workshops</li>
+                                <li>Career Guidance</li>
+                                <li>Student Motivation</li>
+                                <li>Child Development Activities</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
+            <!-- Program 05 -->
+
             <div class="row">
-                <div class="col-xl-7">
+
+
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 06</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Healthcare, Nutrition & Community Wellbeing
-                            </h2>
-
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">5. HEALTHCARE & COMMUNITY WELLBEING</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Healthcare, Nutrition & Community Wellbeing</strong>
+                                The organization conducts healthcare awareness and community wellbeing programs aimed at promoting preventive healthcare, sanitation, nutrition, hygiene, and mental health awareness.
                             </p>
-
-                            <p>
-                                Life Foundation works towards improving public health awareness and ensuring access to basic healthcare support among underserved communities.
-                            </p>
-
-                            <p>
-                                The organization organizes various health initiatives aimed at promoting preventive healthcare, hygiene, nutrition, sanitation, mental wellbeing, and healthy lifestyles.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Healthcare, Nutrition & Community Wellbeing">
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
-                            <ul>
-                                <li>Free Medical & Health Camps</li>
-                                <li>Blood Donation Drives</li>
-                                <li>Health Awareness Campaigns</li>
-                                <li>Mental Health Awareness Programs</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -521,98 +376,56 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
+                                <li>Free Health Camps</li>
+                                <li>Public Health Awareness</li>
                                 <li>Nutrition & Hygiene Promotion</li>
-                                <li>Sanitation & Cleanliness Drives</li>
-                                <li>Counselling & Wellness Support</li>
-                                <li>Awareness on HIV/AIDS, Cancer & Public Health Issues</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure> <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Livelihood, Entrepreneurship & Skill Development"> </figure>
-                    </div>
-                </div>
-                <div class="col-xl-7">
-                    <div class="why-choose-us-content mb-4">
-                        <div class="section-title"> <span class="section-sub-title wow fadeInUp">Program 07</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque"> Livelihood, Entrepreneurship & Skill Development </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"> <strong>Livelihood, Entrepreneurship & Skill Development</strong> </p>
-                            <p> Life Foundation supports sustainable livelihood generation by providing vocational training, entrepreneurship guidance, financial literacy, and employment-oriented skill development opportunities. </p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Vocational Training Programs</li>
-                                <li>Entrepreneurship Development</li>
-                                <li>Financial Literacy Awareness</li>
-                                <li>Market Linkage Support</li>
+                                <li>Mental Health Awareness</li>
+                                <li>Sanitation Campaigns</li>
+                                <li>Wellness Support Activities</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
-                            <ul>
-                                <li>Employment-Oriented Training</li>
-                                <li>Self-Help Group Promotion</li>
-                                <li>Youth Skill Enhancement Programs</li>
-                                <li>Capacity Building Workshops</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
 
+            <!-- Program 06 -->
+
             <div class="row">
-                <div class="col-xl-7">
+
+
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 08</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Disability Inclusion, Accessibility & Rehabilitation
-                            </h2>
-
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">6. DISABILITY INCLUSION & ACCESSIBILITY</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Disability Inclusion, Accessibility & Rehabilitation</strong>
-                            </p>
-
-                            <p>
-                                Life Foundation is committed to promoting dignity, inclusion, accessibility, rehabilitation, and equal opportunities for persons with disabilities.
+                                Life Foundation works towards promoting dignity, inclusion, accessibility, equal rights, and rehabilitation support for persons with disabilities.
                             </p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Disability Inclusion, Accessibility & Rehabilitation">
-                        </figure>
                     </div>
                 </div>
 
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Disability Awareness Programs</li>
-                                <li>Inclusive Education Support</li>
+                                <li>Disability Awareness</li>
+                                <li>Inclusive Participation</li>
                                 <li>Rehabilitation Assistance</li>
-                                <li>Skill Development for PWDs</li>
                             </ul>
                         </div>
                     </div>
@@ -621,41 +434,30 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Accessibility & Rights Advocacy</li>
-                                <li>Community Inclusion Initiatives</li>
-                                <li>Mobility & Assistive Support</li>
-                                <li>Counselling & Social Support</li>
+                                <li>Skill Development</li>
+                                <li>Accessibility Advocacy</li>
+                                <li>Social Inclusion Programs</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Environmental Sustainability & Climate Action">
-                        </figure>
-                    </div>
-                </div>
+            <!-- Program 07 -->
 
-                <div class="col-xl-7">
+            <div class="row">
+
+
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 09</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Environmental Sustainability & Climate Action
-                            </h2>
-
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">7. ENVIRONMENT & CLIMATE ACTION</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Environmental Sustainability & Climate Action</strong>
-                            </p>
-
-                            <p>
-                                Life Foundation promotes environmental conservation and sustainable development practices to protect natural resources and ensure a healthier future.
+                                The organization actively promotes environmental conservation, sanitation awareness, climate responsibility, and sustainable community practices.
                             </p>
                         </div>
                     </div>
@@ -664,12 +466,11 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Tree Plantation Drives</li>
-                                <li>Cleanliness & Sanitation Campaigns</li>
-                                <li>Climate Change Awareness</li>
-                                <li>Environmental Education Programs</li>
+                                <li>Tree Plantation</li>
+                                <li>Environmental Awareness</li>
+                                <li>Waste Management Awareness</li>
                             </ul>
                         </div>
                     </div>
@@ -678,98 +479,30 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Community Waste Management Awareness</li>
-                                <li>Water & Resource Conservation</li>
-                                <li>Eco-Friendly Community Practices</li>
-                                <li>Disaster Risk Reduction Awareness</li>
+                                <li>Cleanliness Campaigns</li>
+                                <li>Climate Action Activities</li>
+                                <li>Sustainable Practices Promotion</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="why-choose-us-content mb-4">
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 10</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Relief, Rehabilitation & Humanitarian Support
-                            </h2>
-
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Relief, Rehabilitation & Humanitarian Support</strong>
-                            </p>
-
-                            <p>
-                                Life Foundation extends humanitarian assistance and emergency support to vulnerable communities during disasters, emergencies, and humanitarian crises.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Relief, Rehabilitation & Humanitarian Support">
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
-                            <ul>
-                                <li>Emergency Relief Distribution</li>
-                                <li>Food & Essential Supply Support</li>
-                                <li>Disaster Response Initiatives</li>
-                                <li>Community Recovery Assistance</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
-                            <ul>
-                                <li>Rehabilitation Support Programs</li>
-                                <li>Humanitarian Outreach Activities</li>
-                                <li>Community Preparedness Awareness</li>
-                                <li>Volunteer Mobilization During Emergencies</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Program 08 -->
 
             <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Youth Leadership & Community Participation">
-                        </figure>
-                    </div>
-                </div>
 
-                <div class="col-xl-7">
+
+                <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 11</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Youth Leadership & Community Participation
-                            </h2>
-
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">8. HUMANITARIAN RELIEF & COMMUNITY SUPPORT</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Youth Leadership & Community Participation</strong>
-                            </p>
-
-                            <p>
-                                Life Foundation encourages youth participation in community development, leadership building, volunteerism, and positive social engagement.
+                                Life Foundation provides humanitarian assistance and emergency support during natural disasters, emergencies, and crisis situations.
                             </p>
                         </div>
                     </div>
@@ -778,12 +511,11 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Youth Leadership Programs</li>
-                                <li>Volunteer Engagement Activities</li>
-                                <li>Sports & Cultural Programs</li>
-                                <li>Social Awareness Campaigns</li>
+                                <li>Relief Distribution</li>
+                                <li>Emergency Support</li>
+                                <li>Community Rehabilitation</li>
                             </ul>
                         </div>
                     </div>
@@ -792,12 +524,11 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p><strong>Key Activities:</strong></p>
+                            <p>Key Focus Areas:</p>
                             <ul>
-                                <li>Community Participation Initiatives</li>
-                                <li>Personality Development Workshops</li>
-                                <li>Civic Responsibility Awareness</li>
-                                <li>Creative & Educational Activities</li>
+                                <li>Volunteer Mobilization</li>
+                                <li>Humanitarian Assistance</li>
+                                <li>Disaster Response Activities</li>
                             </ul>
                         </div>
                     </div>
@@ -806,14 +537,94 @@
         </div>
     </div>
 
+
+
+
+    <div class="why-choose-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="why-choose-us-content mb-4">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">CHILD PROTECTION IMPACT</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Supporting Children Through Care, Protection & Rehabilitation</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                The Child Care Institution (CCI) operated by Life Foundation provides residential care, education, healthcare, counseling, rehabilitation, and emotional support for children in need of care and protection. </p>
+                            <p>The institution works towards creating a safe, child-friendly, nurturing, and supportive environment where vulnerable children receive opportunities for growth, protection, wellbeing, dignity, and holistic development.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-12">
+                    <div class="why-choose-us-content mb-4">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">FAMILY-BASED CARE IMPACT</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Creating Hope Through Adoption & Child Rehabilitation</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                The Specialized Adoption Agency (SAA) operated by Life Foundation works towards ensuring care, rehabilitation, emotional support, and legal adoption services for orphaned, abandoned, and surrendered children.</p>
+                            <p>The initiative aims to provide every child with the opportunity to grow in a loving, secure, supportive, and family-based environment through ethical and transparent adoption procedures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
     <div class="our-approach">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <span class="section-sub-title wow fadeInUp">Our Impact</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Creating Change Across Multiple Sectors</h2>
+                        <span class="section-sub-title wow fadeInUp">VOICES OF IMPACT</span>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Stories Of Hope, Care & Transformation</h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <p>“Life Foundation has positively impacted many vulnerable families and children through its compassionate community initiatives and welfare programs.”</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+<p>“The organization continues to bring hope and support to communities through education, healthcare, child protection, and humanitarian service.”</p>                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+<p>“Their dedication towards child welfare and community development is truly inspiring and impactful.”</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="our-approach">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-xl-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <span class="section-sub-title wow fadeInUp">OUR APPROACH</span>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Compassion-Driven & Community-Centered Development</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -823,30 +634,19 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p>Impact Categories</p>
+                            <p>Life Foundation believes that sustainable social transformation becomes possible when communities are empowered through:</p>
                             <ul>
-                                <li>Child Protection</li>
-                                <li>Child Rehabilitation</li>
-                                <li>Adoption Support</li>
-                                <li>Women Empowerment</li>
-                                <li>Healthcare</li>
-                                <li>Education</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                                <li>Participation,</li>
+                                <li>Awareness,</li>
+                                <li>Education,</li>
+                                <li>Inclusion,</li>
+                                <li>Protection,</li>
+                                <li>Rehabilitation,</li>
+                                <li>And collective responsibility.</li>
 
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p>Impact Categories</p>
-                            <ul>
-                                <li>Livelihood</li>
-                                <li>Disability Inclusion</li>
-                                <li>Environment</li>
-                                <li>Community Development</li>
-                                <li>Humanitarian Relief</li>
                             </ul>
+
+                            <p>The organization adopts people-centered and participatory approaches that focus on dignity, sustainadignity empowerment, accountability, and long-term positive impact.</p>
                         </div>
                     </div>
                 </div>
@@ -860,8 +660,7 @@
                 <div class="col-xl-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <span class="section-sub-title wow fadeInUp">Why Our Programs Matter</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Building Stronger Communities Through Sustainable Action</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Together We Can Create Greater Impact</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -872,21 +671,32 @@
                     <!-- Our Approach Item Start -->
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <p>
-                                Our programs are designed to create long-term impact by addressing root causes of social challenges while empowering individuals and communities with knowledge, opportunities, protection, and support.</p>
+                            <p>Your support can help us continue providing:</p>
+                            <ul>
+                                <li>Child protection,</li>
+                                <li>Rehabilitation,</li>
+                                <li>Education,</li>
+                                <li>Healthcare,</li>
+                                <li>Livelihood opportunities,</li>
+                                <li>Humanitarian assistance,</li>
+                                <li>Adoption support,</li>
+                                <li>And community development initiatives
+                                    for vulnerable individuals and underserved communities.</li>
+                            </ul>
                         </div>
 
-                        <div class="approach-item-content">
-                            <p>We believe that sustainable development becomes possible when communities are empowered through participation, compassion, inclusion, and collective action.</p>
-                        </div>
 
-                        <div class="d-flex gap-3">
+                        <div class="d-flex flex-column flex-md-row gap-3">
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
                                 <a href="contact.php" class="btn-default btn-highlighted">Donate now</a>
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Donate now</a>
+                                <a href="contact.php" class="btn-default btn-highlighted">Become A Volunteer</a>
+                            </div>
+
+                            <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
+                                <a href="contact.php" class="btn-default btn-highlighted">Partner With Us</a>
                             </div>
                         </div>
                     </div>
@@ -903,10 +713,9 @@
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Together We Can Build Safer, Stronger & More Empowered Communities</h2>
-                        <p>Life Foundation remains dedicated to serving humanity through sustainable development, social empowerment, child protection, rehabilitation, and compassionate action.</p>
-                        <p>Through our diverse programs and community-centered initiatives, we continue striving towards a future where every individual has access to dignity, opportunity, protection, equality, and hope.</p>
-                        <p>We believe that lasting social change becomes possible when communities, institutions, volunteers, and individuals come together with a shared commitment towards humanity, development, and collective responsibility.</p>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Building Hope, Dignity & Opportunities For All</h2>
+                        <p>Life Foundation remains committed to creating meaningful and sustainable social impact through compassion-driven service, inclusive development, child protection, rehabilitation, and community empowerment initiatives.</p>
+                        <p>Together with communities, volunteers, institutions, supporters, and development partners, we continue striving towards building a more compassionate, inclusive, empowered, and equitable society for all.</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
