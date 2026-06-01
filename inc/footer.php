@@ -22,12 +22,10 @@
                         <div class="footer-links">
                             <h2>Quick Links</h2>
                             <ul>
-                                <li><a href="index.php">Home</a></li>
                                 <li><a href="about.php">About Us</a></li>
-                                 <li><a href="testimonials.php">Testimonial</a></li>
-                                <li><a href="team.php">Team</a></li>
-                                <!-- <li><a href="">Our Services</a></li>
-                                <li><a href="">Blogs</a></li> -->
+                                <li><a href="">Programs</a></li>
+                                 <li><a href="testimonials.php">Gallery</a></li>
+                                <li><a href="team.php">Donate</a></li>
                                 <li><a href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
@@ -37,11 +35,11 @@
                         <div class="footer-links">
                             <h2>Our Programs</h2>
                             <ul>
-                                <li><a href="">Health & Wellness Outreach</a></li>
-                                <li><a href="">Human Rights Advocacy</a></li>
-                                <li><a href="">Disaster Relief & Recovery</a></li>
-                                <li><a href="">Clean Water & Sanitation</a></li>
-                                <li><a href="">Environmental Awareness</a></li>
+                                <li><a href="">Child Welfare</a></li>
+                                <li><a href="">Women Empowerment</a></li>
+                                <li><a href="">Education</a></li>
+                                <li><a href="">Health</a></li>
+                                <li><a href="">Livelihood</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -49,9 +47,26 @@
                         <!-- Footer Links Start -->
                         <div class="footer-links footer-location-info">
                             <h2>Our Location</h2>
-                            <ul>
-                                <li><img src="images/icon-location-accent.svg" alt="">8502 Preston Rd. Inglewood, Maine 98380</li>
-                            </ul>
+
+                            <div class="footer-contact-item mb-3">
+                                <div class="icon-box">
+                                    <img src="images/icon-mail-primary.svg" alt="">
+                                </div>
+                                <div class="footer-contact-item-content">
+                                    <h3>Email Address</h3>
+                                    <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                </div>
+                            </div>
+
+                             <div class="footer-contact-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-phone-primary.svg" alt="">
+                                </div>
+                                <div class="footer-contact-item-content">
+                                    <h3>Phone Number</h3>
+                                    <p><a href="tel:123456789">+(123) 456-789</a></p>
+                                </div>
+                            </div>
 
                             <!-- Footer Social Link Start -->
                             <div class="footer-social-links">
@@ -68,51 +83,6 @@
                         <!-- Footer Links End -->                                                                  
                     </div>
                     <!-- Footer Links Box End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Footer Body Start -->
-                    <div class="footer-body">
-                        <!-- Footer Newsletter Form Start -->
-                        <div class="footer-newsletter-form">
-                            <form id="newslettersForm" action="#" method="post">
-                                <div class="form-group">
-                                    <input type="email" name="mail" class="form-control" id="email" placeholder="Enter Email Address *" required>
-                                    <button type="submit" class="btn-default btn-highlighted">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- Footer Newsletter Form End -->
-
-                        <!-- Footer Contact Items List Start -->
-                        <div class="footer-contact-items-list">                           
-                            <!-- Footer Contact Item Start -->
-                            <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-mail-primary.svg" alt="">
-                                </div>
-                                <div class="footer-contact-item-content">
-                                    <h3>Email Address</h3>
-                                    <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Item End -->
-
-                            <!-- Footer Contact Item Start -->
-                            <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-phone-primary.svg" alt="">
-                                </div>
-                                <div class="footer-contact-item-content">
-                                    <h3>Phone Number</h3>
-                                    <p><a href="tel:123456789">+(123) 456-789</a></p>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Item End -->
-                        </div>
-                        <!-- Footer Contact Items List End -->
-                    </div>
-                    <!-- Footer Body End -->
                 </div>
 
                 <div class="col-lg-12">

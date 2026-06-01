@@ -3355,7 +3355,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	background-color: var(--bg-color);
 	border-radius: 10px;
-	min-height: 460px;
+	/* min-height: 460px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -3561,7 +3561,7 @@ header.main-header .header-sticky.active{
 .our-impact-item{
 	position: relative;
 	width: calc(50% - 15px);
-	min-height: 310px;
+	/* min-height: 310px; */
 	background-color: var(--white-color);
 	border-radius: 10px;
 	display: flex;
