@@ -170,7 +170,7 @@
               <!-- About Us Image Start -->
               <div class="about-us-image">
                 <figure class="image-anime">
-                  <img src="images/about-us-image-1.jpg" alt="" />
+                  <img src="images/about1.jpeg" alt="" />
                 </figure>
               </div>
               <!-- About Us Image End -->
@@ -189,7 +189,7 @@
               <!-- About Us Image Start -->
               <div class="about-us-image">
                 <figure class="image-anime">
-                  <img src="images/about-us-image-2.jpg" alt="" />
+                  <img src="images/about2.jpeg" alt="" />
                 </figure>
               </div>
               <!-- About Us Image End -->
@@ -242,7 +242,7 @@
               <!-- About Body Image Start -->
               <div class="about-body-image">
                 <figure class="image-anime">
-                  <img src="images/about-us-body-image.jpg" alt="" />
+                  <img src="images/about3.jpeg" alt="" />
                 </figure>
               </div>
               <!-- About Body Image Start -->
@@ -369,7 +369,7 @@
               <!-- Why Choosse Image Start -->
               <div class="why-choose-image">
                 <figure class="image-anime">
-                  <img src="images/why-choose-us-image-1.jpg" alt="">
+                  <img src="images/why1.jpeg" alt="">
                 </figure>
               </div>
               <!-- Why Choosse Image End -->
@@ -381,7 +381,7 @@
               <!-- Why Choosse Image Start -->
               <div class="why-choose-image">
                 <figure class="image-anime">
-                  <img src="images/why-choose-us-image-2.jpg" alt="">
+                  <img src="images/why2.jpeg" alt="">
                 </figure>
               </div>
               <!-- Why Choosse Image Start -->
@@ -431,7 +431,7 @@
 
             <!-- Section Button Start -->
             <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-              <a class="btn-default" href="contact.html">Contact Us</a>
+              <a class="btn-default" href="contact.php">Contact Us</a>
             </div>
             <!-- Section Button End -->
           </div>
@@ -549,7 +549,7 @@
             <div class="program-item-image">
               <a href="programs.php" data-cursor-text="View">
                 <figure>
-                  <img src="images/program-image-3.jpg" alt="" />
+                  <img src="images/pro1.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -572,7 +572,7 @@
             <div class="program-item-image">
               <a href="programs.php" data-cursor-text="View">
                 <figure>
-                  <img src="images/program-image-3.jpg" alt="" />
+                  <img src="images/pro2.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -595,7 +595,7 @@
             <div class="program-item-image">
               <a href="programs.php" data-cursor-text="View">
                 <figure>
-                  <img src="images/program-image-3.jpg" alt="" />
+                  <img src="images/pro3.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -671,7 +671,7 @@
             <!-- Our Impact Images Start -->
             <div class="our-impact-image-1">
               <figure class="image-anime">
-                <img src="images/our-impact-image-1.jpg" alt="">
+                <img src="images/imp1.jpeg" alt="">
               </figure>
             </div>
             <!-- Our Impact Images End -->
@@ -679,7 +679,7 @@
             <!-- Our Impact Images Start -->
             <div class="our-impact-image-2">
               <figure class="image-anime">
-                <img src="images/our-impact-image-2.jpg" alt="">
+                <img src="images/imp2.jpeg" alt="">
               </figure>
             </div>
             <!-- Our Impact Images End -->
@@ -779,9 +779,9 @@
           <div class="post-item wow fadeInUp">
             <!-- Post Item image Start -->
             <div class="post-item-image">
-              <a href="blog-single.html" data-cursor-text="View">
+              <a href="" data-cursor-text="View">
                 <figure>
-                  <img src="images/post-1.jpg" alt="" />
+                  <img src="images/blo1.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -791,7 +791,7 @@
             <div class="post-item-body">
               <!-- Post Item Tag Start -->
               <div class="post-item-tag">
-                <a href="blog-single.html">International Women’s Day Celebration</a>
+                <a href=" ">International Women’s Day Celebration</a>
               </div>
               <!-- Post Item Tag End -->
 
@@ -800,14 +800,14 @@
                 <!-- Post Item Content Start -->
                 <div class="post-item-content">
                   <h2>
-                    <a href="blog-single.html">Celebrating the strength, achievements, and empowerment of women.</a>
+                    <a href=" ">Celebrating the strength, achievements, and empowerment of women.</a>
                   </h2>
                 </div>
                 <!-- Post Item Content End -->
 
                 <!-- Post Item Button Start -->
                 <div class="post-item-btn">
-                  <!-- <a href="blog-single.html" class="readmore-btn">Read More</a> -->
+                  <!-- <a href=" " class="readmore-btn">Read More</a> -->
                   <a href="" class="readmore-btn">Read More</a>
                 </div>
                 <!-- Post Item Button End -->
@@ -826,7 +826,7 @@
             <div class="post-item-image">
               <a href="" data-cursor-text="View">
                 <figure>
-                  <img src="images/post-2.jpg" alt="" />
+                  <img src="images/blo3.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -870,7 +870,7 @@
             <div class="post-item-image">
               <a href="" data-cursor-text="View">
                 <figure>
-                  <img src="images/post-3.jpg" alt="" />
+                  <img src="images/blo2.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -1144,7 +1144,7 @@
                   <!-- Testimonial Item Start -->
                   <div class="team-item wow fadeInUp">
                     <div class="team-item-image">
-                      <a href="team-single.html" data-cursor-text="View">
+                      <a href=" " data-cursor-text="View">
                         <figure>
                           <img src="images/team-1.jpg" alt="">
                         </figure>
@@ -1162,7 +1162,7 @@
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href="team-single.html">CSR Partners</a></h2>
+                      <h2><a href=" ">CSR Partners</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1174,7 +1174,7 @@
                   <!-- Testimonial Item Start -->
                   <div class="team-item wow fadeInUp">
                     <div class="team-item-image">
-                      <a href="team-single.html" data-cursor-text="View">
+                      <a href=" " data-cursor-text="View">
                         <figure>
                           <img src="images/team-1.jpg" alt="">
                         </figure>
@@ -1192,7 +1192,7 @@
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href="team-single.html">FCRA Partners </a></h2>
+                      <h2><a href=" ">FCRA Partners </a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1204,7 +1204,7 @@
                   <!-- Testimonial Item Start -->
                   <div class="team-item wow fadeInUp">
                     <div class="team-item-image">
-                      <a href="team-single.html" data-cursor-text="View">
+                      <a href=" " data-cursor-text="View">
                         <figure>
                           <img src="images/team-1.jpg" alt="">
                         </figure>
@@ -1222,7 +1222,7 @@
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href="team-single.html">Government Departments</a></h2>
+                      <h2><a href=" ">Government Departments</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1234,7 +1234,7 @@
                   <!-- Testimonial Item Start -->
                   <div class="team-item wow fadeInUp">
                     <div class="team-item-image">
-                      <a href="team-single.html" data-cursor-text="View">
+                      <a href=" " data-cursor-text="View">
                         <figure>
                           <img src="images/team-1.jpg" alt="">
                         </figure>
@@ -1252,7 +1252,7 @@
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href="team-single.html">Volunteers</a></h2>
+                      <h2><a href=" ">Volunteers</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1263,7 +1263,7 @@
                   <!-- Testimonial Item Start -->
                   <div class="team-item wow fadeInUp">
                     <div class="team-item-image">
-                      <a href="team-single.html" data-cursor-text="View">
+                      <a href=" " data-cursor-text="View">
                         <figure>
                           <img src="images/team-1.jpg" alt="">
                         </figure>
@@ -1281,7 +1281,7 @@
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href="team-single.html">Local Institutions</a></h2>
+                      <h2><a href=" ">Local Institutions</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1291,7 +1291,7 @@
                   <!-- Testimonial Item Start -->
                   <div class="team-item wow fadeInUp">
                     <div class="team-item-image">
-                      <a href="team-single.html" data-cursor-text="View">
+                      <a href=" " data-cursor-text="View">
                         <figure>
                           <img src="images/team-1.jpg" alt="">
                         </figure>
@@ -1309,7 +1309,7 @@
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href="team-single.html">Donors</a></h2>
+                      <h2><a href=" ">Donors</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->

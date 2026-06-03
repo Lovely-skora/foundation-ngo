@@ -534,15 +534,23 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-
-
-
-    <div class="why-choose-us">
-        <div class="container">
             <div class="row">
+
+            <div class="col-xl-12">
+                    <div class="why-choose-us-content mb-4">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">INCLUSION IMPACT</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">LGBTQ+ Community Inclusion & Livelihood Impact</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+Life Foundation has reached and engaged more than 250 members of transgender and LGBTQ+ communities across Assam and Manipur through listening circles, grassroots interactions, livelihood discussions, awareness initiatives, and inclusion-focused empowerment activities. </p>
+                            <p>The initiative has helped strengthen community participation, social inclusion, mental health conversations, livelihood planning, leadership development, and safe-space dialogue while promoting dignity, equality, acceptance, and empowerment for gender and sexuality minority communities.</p>
+                            <p>Through collaborative partnerships and grassroots engagement, the organization continues working towards creating safer, more inclusive, and opportunity-driven environments for transgender and LGBTQ+ individuals.</p>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-xl-12">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
@@ -572,6 +580,7 @@
     </div>
 
 
+
     <div class="our-approach">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -598,18 +607,19 @@
                 <div class="col-xl-4">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-<p>“The organization continues to bring hope and support to communities through education, healthcare, child protection, and humanitarian service.”</p>                        </div>
+                            <p>“The organization continues to bring hope and support to communities through education, healthcare, child protection, and humanitarian service.”</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xl-4">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-<p>“Their dedication towards child welfare and community development is truly inspiring and impactful.”</p>
+                            <p>“Their dedication towards child welfare and community development is truly inspiring and impactful.”</p>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>

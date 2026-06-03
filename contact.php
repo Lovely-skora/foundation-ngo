@@ -98,7 +98,7 @@
                                 <h2>Phone Number</h2>
                                 <p>We work closely with communities to identify real needs.</p>
                                 <ul>
-                                    <li>Call Us: <a href="tel:123456789">+(123) 456-789</a></li>
+                                    <li>Call Us: <a href="tel:919862059664">91 98620 59664</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 <h2>Email Address</h2>
                                 <p>We work closely with communities to identify real needs.</p>
                                 <ul>
-                                    <li>Email: <a href="mailto:info@domainname.com">info@domainname.com</a></li>
+                                    <li>Email: <a href="mailto:lifefoundationngo@gmail.com">lifefoundationngo@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>

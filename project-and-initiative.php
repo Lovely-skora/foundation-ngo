@@ -605,101 +605,7 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="mb-4">
-                        <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI) - Children Home for Boys">
-                        </figure>
-                    </div>
-                </div>
 
-                <div class="col-xl-7">
-                    <div class="why-choose-us-content mb-4">
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">CHILD PROTECTION INITIATIVE</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Child Care Institution (CCI)
-                            </h2>
-
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                <strong>Children Home for Boys</strong>
-                            </p>
-
-                            <p>
-                                The Child Care Institution (CCI) operated by Life Foundation at Hojai, Assam is a residential care home established for children in need of care and protection.
-                            </p>
-
-                            <p>
-                                The institution was inaugurated on 16th December 2022 by Ramkrishna Ghosh in the presence of the District Child Protection Unit (DCPU), Child Welfare Committee (CWC), and other stakeholders.
-                            </p>
-
-                            <p>
-                                The institution is recognized under Mission Vatsalya of the Ministry of Women and Child Development, Government of India, and registered under Section 41(1) of the Juvenile Justice (Care and Protection of Children) Act, 2015 vide Registration No. 03/2022 effective from 19th November 2022 for a period of five years.
-                            </p>
-
-                            <p>
-                                The Children Home is a 25-bedded residential care institution for boys in need of care and protection, providing a safe, caring, child-friendly, and nurturing environment focused on rehabilitation, wellbeing, education, protection, and holistic development.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Services Provided:</strong></p>
-                            <ul>
-                                <li>Safe Shelter & Residential Care</li>
-                                <li>Nutritious Food & Healthcare Support</li>
-                                <li>Formal & Non-Formal Education</li>
-                                <li>Counselling & Emotional Support</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Services Provided:</strong></p>
-                            <ul>
-                                <li>Individual Care Plans (ICP)</li>
-                                <li>Vocational & Skill Development</li>
-                                <li>Psychiatric & Behavioural Support</li>
-                                <li>Rehabilitation & Reintegration Support</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-12 mt-4">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <h4>Vision & Objectives</h4>
-                            <p>
-                                The institution works toward protecting child rights and ensuring the care, safety, rehabilitation, empowerment, and holistic development of vulnerable children through child-centered care and protection initiatives.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-12">
-                    <div class="approach-item box-1 wow fadeInUp">
-                        <div class="approach-item-content">
-                            <p><strong>Key Focus Areas:</strong></p>
-                            <ul>
-                                <li>Protection of Child Rights</li>
-                                <li>Prevention of Child Trafficking & Exploitation</li>
-                                <li>Educational & Health Support</li>
-                                <li>Rehabilitation & Social Reintegration</li>
-                                <li>Holistic Child Development</li>
-                                <li>Awareness Against Child Labour & Child Marriage</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="row">
                 <div class="col-xl-7">
@@ -787,6 +693,92 @@
                                 <li>Legal Adoption Coordination as per CARA Guidelines</li>
                                 <li>Post-Adoption Follow-Up Support</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure>
+                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI) - Children Home for Boys">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-7">
+                    <div class="why-choose-us-content mb-4">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">INCLUSION & LIVELIHOOD INITIATIVE</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">
+                                LGBTQ+ Community Empowerment & Livelihood Initiative
+                            </h2>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                <strong>Children Home for Boys</strong>
+                            </p>
+
+                            <p>
+                                Life Foundation is implementing an LGBTQ+ Community Empowerment & Livelihood Initiative in partnership with Bridge, Kolkata, ATMA Manipur, and queer-trans activists from Assam with the objective of strengthening communication, solidarity, inclusion, livelihood opportunities, and grassroots community empowerment among transgender and LGBTQ+ communities across Assam and Manipur. </p>
+
+                            <p>
+                                The initiative focuses on understanding the lived realities, livelihood challenges, healthcare access, mental health concerns, social exclusion, economic vulnerabilities, and social protection needs faced by gender and sexuality minority communities. </p>
+
+                            <p>
+                                As part of the initiative, extensive community outreach and grassroots engagement activities were conducted across different districts of Assam and Manipur. More than 20 Listening Circles were organized involving over 250 members of LGBTQ+ communities where participants openly shared their experiences, aspirations, livelihood needs, challenges, and personal stories in safe and respectful community spaces. </p>
+
+                            <p>
+                                The initiative also works towards promoting social inclusion, mental wellbeing, economic empowerment, leadership development, and equal opportunities for transgender and LGBTQ+ individuals through sustainable and community-centered approaches. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <p><strong>Key Focus Areas:</strong></p>
+                            <ul>
+                                <li>Community Listening Circles</li>
+                                <li>Livelihood & Skill Development Training</li>
+                                <li>Mental Health & Wellbeing Support</li>
+                                <li>Awareness & Inclusion Programs</li>
+                                <li>Entrepreneurship Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <p><strong>Key Focus Areas:</strong></p>
+                            <ul>
+                                <li>Community Leadership Building</li>
+                                <li>Social Protection Awareness</li>
+                                <li>Advocacy for Equality & Dignity</li>
+                                <li>Psychosocial & Community Support</li>
+                                <li>Grassroots Community Engagement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 mt-4">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <h4>Vision & Objectives</h4>
+                            <p>
+                                The initiative envisions an inclusive society where transgender and LGBTQ+ individuals can live with dignity, equality, safety, opportunity, and social acceptance. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <h4>Vision & Objectives</h4>
+                            <p>Its objective is to strengthen grassroots inclusion, improve livelihood opportunities, promote mental wellbeing, encourage community participation, and support sustainable empowerment of gender and sexuality minority communities across Assam and Manipur.</p>
                         </div>
                     </div>
                 </div>
