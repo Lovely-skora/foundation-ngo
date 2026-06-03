@@ -95,7 +95,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-1.jpg" alt="">
+                                    <img src="images/about4.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -114,7 +114,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-2.jpg" alt="">
+                                    <img src="images/about5.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -155,7 +155,7 @@
                             <!-- What We Image Start -->
                             <div class="what-we-image">
                                 <figure class="image-anime">
-                                    <img src="images/what-we-do-image-1.jpg" alt="">
+                                    <img src="images/who1.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- What We Image End -->
@@ -216,7 +216,7 @@
                             <!-- What We Image Start -->
                             <div class="what-we-image">
                                 <figure class="image-anime">
-                                    <img src="images/what-we-do-image-2.jpg" alt="">
+                                    <img src="images/who2.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- What We Image End -->
@@ -335,7 +335,7 @@
                         <!-- Our Impact Images Start -->
                         <div class="our-impact-image-1">
                             <figure class="image-anime">
-                                <img src="images/our-impact-image-1.jpg" alt="">
+                                <img src="images/jour1.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- Our Impact Images End -->
@@ -343,7 +343,7 @@
                         <!-- Our Impact Images Start -->
                         <div class="our-impact-image-2">
                             <figure class="image-anime">
-                                <img src="images/our-impact-image-2.jpg" alt="">
+                                <img src="images/jour2.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- Our Impact Images End -->
@@ -652,7 +652,7 @@
                             <!-- Why Choosse Image Start -->
                             <div class="why-choose-image">
                                 <figure class="image-anime">
-                                    <img src="images/why-choose-us-image-1.jpg" alt="">
+                                    <img src="images/str1.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- Why Choosse Image End -->
@@ -664,7 +664,7 @@
                             <!-- Why Choosse Image Start -->
                             <div class="why-choose-image">
                                 <figure class="image-anime">
-                                    <img src="images/why-choose-us-image-2.jpg" alt="">
+                                    <img src="images/str2.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- Why Choosse Image Start -->
@@ -699,7 +699,7 @@
                             <div class="icon-box">
                                 <img src="images/icon-how-we-work-1.svg" alt="">
                             </div>
-                            <div class="how-work-item-content">
+                            <div class="how-work-item-content text-start">
                                 <h3>Child Care Institution (CCI)</h3>
                                 <p>The Child Care Institution (CCI) operated by Life Foundation is a 25-bedded residential Children Home for boys in need of care and protection established under the Juvenile Justice (Care and Protection of Children) Act, 2015.</p>
                                 <p>The institution provides:</p>
@@ -932,7 +932,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-1.jpg" alt="">
+                                    <img src="images/foun1.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -951,7 +951,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-2.jpg" alt="">
+                                    <img src="images/foun2.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -1619,7 +1619,7 @@
                     <div class="mb-0">
                         <div class="our-causes-image bg-white shadow border">
                             <figure class="image-anime">
-                                <img src="images/our-causes-image.jpg" alt="">
+                                <img src="images/bijoy.jpeg" alt="">
                             </figure>
                         </div>
 

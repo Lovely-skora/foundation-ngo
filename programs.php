@@ -675,7 +675,69 @@
                 <div class="col-xl-7">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 10</span>
+                            <span class="section-sub-title wow fadeInUp">Program 11</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">
+                                LGBTQ+ Inclusion & Community Empowerment Program
+                            </h2>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                <strong>Relief, Rehabilitation & Humanitarian Support</strong>
+                            </p>
+
+                            <p>
+                                Life Foundation works towards promoting dignity, equality, inclusion, and sustainable livelihood opportunities for transgender and LGBTQ+ communities through awareness, community participation, skill development, psychosocial support, and grassroots empowerment initiatives. </p>
+
+                            <p>The program focuses on strengthening social inclusion, livelihood opportunities, mental wellbeing, leadership development, and access to support services for gender and sexuality minority communities while creating safe and respectful spaces for dialogue, empowerment, and advocacy.</p>
+                            <p>Life Foundation believes that every individual deserves equal opportunities, dignity, acceptance, and participation in society irrespective of gender identity or sexual orientation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure>
+                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Relief, Rehabilitation & Humanitarian Support">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <p><strong>Key Activities:</strong></p>
+                            <ul>
+                                <li>Community Listening Circles</li>
+                                <li>Livelihood & Skill Development Training</li>
+                                <li>Mental Health & Wellbeing Support</li>
+                                <li>Awareness & Inclusion Programs</li>
+                                <li>Entrepreneurship Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="approach-item box-1 wow fadeInUp">
+                        <div class="approach-item-content">
+                            <p><strong>Key Activities:</strong></p>
+                            <ul>
+                                <li>Community Leadership Building</li>
+                                <li>Social Protection Awareness</li>
+                                <li>Advocacy for Equality & Dignity</li>
+                                <li>Psychosocial & Community Support</li>
+                                <li>Grassroots Community Engagement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="why-choose-us-content mb-4">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Program 11</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">
                                 Relief, Rehabilitation & Humanitarian Support
                             </h2>
