@@ -26,7 +26,7 @@
     <!-- Header End -->
 
     <!-- Page Header Section Start -->
-    <div class="page-header dark-section parallaxie">
+    <div class="page-header dark-section parallaxie" style="background-image: url('images/gov-banner.jpeg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -316,6 +316,54 @@
                                     <!-- Testimonial Item End -->
                                 </div>
                                 <!-- Testimonial Slide End -->
+
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Item Start -->
+                                    <div>
+                                        <div class="team-item wow fadeInUp">
+                                            <div class="team-item-image">
+                                                <a href=" " data-cursor-text="View">
+                                                    <figure>
+                                                        <img src="images/animesh.jpeg" alt="">
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+                                            <div class="team-item-content">
+                                                <h2><a href=" ">Mr. Animesh Dey</a></h2>
+                                                <ul>
+                                                    <li>Member, Life Foundation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <p>Responsible for financial management, budgeting, transparency, financial accountability, and maintaining proper financial records of the organization.</p>
+                                    </div>
+                                    <!-- Testimonial Item End -->
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Item Start -->
+                                    <div>
+                                        <div class="team-item wow fadeInUp">
+                                            <div class="team-item-image">
+                                                <a href=" " data-cursor-text="View">
+                                                    <figure>
+                                                        <img src="images/pawan.jpeg" alt="">
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+                                            <div class="team-item-content">
+                                                <h2><a href=" ">Mr. Pawan Kumar Das</a></h2>
+                                                <ul>
+                                                    <li>Member, Life Foundation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <p>Responsible for financial management, budgeting, transparency, financial accountability, and maintaining proper financial records of the organization.</p>
+                                    </div>
+                                    <!-- Testimonial Item End -->
+                                </div>
 
                                 <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
