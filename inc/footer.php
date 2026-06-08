@@ -47,7 +47,7 @@
 
                         <!-- Footer Links Start -->
                         <div class="footer-links footer-location-info">
-                            <h2>Our Location</h2>
+                            <h2>Our Contact</h2>
 
                             <div class="footer-contact-item mb-3">
                                 <div class="icon-box">
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="footer-contact-item-content">
                                     <h3>Phone Number</h3>
-                                    <p><a href="tel:919862059664">91 98620 59664</a></p>
+                                    <p><a href="tel:919862059664">+91 98620 59664</a></p>
                                 </div>
                             </div>
 
@@ -84,7 +84,7 @@
                         <!-- Footer Links End -->
                     </div>
                     <!-- Footer Links Box End -->
-                </div>
+                </div> 
 
                 <div class="col-lg-6">
                     <!-- Footer Copyright Text Start -->

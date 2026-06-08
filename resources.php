@@ -26,7 +26,7 @@
     <!-- Header End -->
 
     <!-- Page Header Section Start -->
-    <div class="page-header dark-section parallaxie">
+    <div class="page-header dark-section parallaxie" style="background-image: url('images/res-banner.jpeg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -123,6 +123,11 @@
                                 <div class="document-card">
                                     <h3>Registration & Legal Documents</h3>
 
+                                    <a href="images/Society Registration Certificate.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Society Registration Certificate of Life Foundation
+                                    </a>
+
                                     <a href="images/NGO DARPAN.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
                                         Niti Ayog Registration (NGO Darpan)
@@ -159,35 +164,76 @@
                                         FCRA Certificate Registration Of Life Foundation
                                     </a>
 
+                                    <a href="images/Memorandum of Association.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Constitution of Life Foundation (MOA & Bye-Laws)
+                                    </a>
+
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
 
                                 <div class="document-card">
-                                    <h3>Organizational Documents</h3>
+                                    <h3>Annual Reports</h3>
 
-                                    <a href="images/Memorandum of Association.pdf" target="_blank" class="document-item">
+                                    <a href="images/LF ANNUAL REPORT 2025-26.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
-                                        Constitution of Life Foundation (MOA & Bye-Laws)
+                                        LF ANNUAL REPORT 2025-26
                                     </a>
 
-                                    <a href="" target="_blank" class="document-item">
+                                    <a href="images/Annual Activity Report 2024-25.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
-                                        Annual Reports
+                                        Annual Activity Report 2024-25
                                     </a>
-                                    <a href="" target="_blank" class="document-item">
+                                    <a href="images/Annual Activity Report 2023-24.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
-                                        Audit Reports
-                                        & Financial Statements
+                                        Annual Activity Report 2023-24
                                     </a>
-                                    <a href="" target="_blank" class="document-item">
+                                    <a href="images/ANNUAL ACTIVITY REPORT 2022-23.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
-                                        Policy Documents
+                                        ANNUAL ACTIVITY REPORT 2022-23
+                                    </a>
+
+                                    <a href="images/LF ANNUAL REPORT 2021-22.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        LF ANNUAL REPORT 2021-22
                                     </a>
 
                                 </div>
                             </div>
+
+                             <div class="col-lg-6">
+
+                                <div class="document-card">
+                                    <h3>Audit Reports</h3>
+
+                                    <a href="images/Audited Accounts 2024-25 .pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Audited Accounts 2024-25
+                                    </a>
+
+                                    <a href="images/Audited Accounts 2023-24.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Audited Accounts 2023-24
+                                    </a>
+                                    <a href="images/Audited Accounts 2022-23.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Audited Accounts 2022-23
+                                    </a>
+                                    <a href="images/Audited Accounts 2021-22.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Audited Accounts 2021-22
+                                    </a>
+
+                                    <a href="images/Audit Report 2020-21.pdf" target="_blank" class="document-item">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                        Audit Report 2020-21
+                                    </a>
+
+                                </div>
+                            </div>
+                            
 
                             <div class="col-lg-6">
                                 <div class="document-card">
@@ -198,13 +244,13 @@
                                         Child Protection Policy
                                     </a>
 
-                                    <a href="" target="_blank" class="document-item">
+                                    <a href="images/CCI Registration Certificate.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
-                                        CCI Registration Certificate
+                                        Child Care Institution (CCI) Registration Certificate
                                     </a>
-                                    <a href="" target="_blank" class="document-item">
+                                    <a href="images/SAA registration Certificate.pdf" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>
-                                        SAA Registration Certificate
+                                        pecialized Adoption Agency (SAA) Registration Certificate
                                     </a>
                                     <a href="" target="_blank" class="document-item">
                                         <i class="fa-regular fa-file-pdf"></i>

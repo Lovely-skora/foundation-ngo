@@ -1685,6 +1685,20 @@
                     </div>
                 </div>
 
+                   <div class="col-xl-12">
+                    <!-- Our Causes Content Start -->
+                    <div class="">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Saving Lives</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">A Step Towards Better Emergency Healthcare</h2>
+                            
+                            <img src="images/vehicle.jpeg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <!-- Causes Content End -->
+                </div>
+
                 <div class="col-xl-12">
                     <!-- Our Causes Content Start -->
                     <div class="">

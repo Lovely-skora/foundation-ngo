@@ -595,7 +595,7 @@
             <div class="program-item-image">
               <a href="programs.php" data-cursor-text="View">
                 <figure>
-                  <img src="images/pro3.jpeg" alt="" />
+                  <img src="images/pro4.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -618,7 +618,7 @@
             <div class="program-item-image">
               <a href="programs.php" data-cursor-text="View">
                 <figure>
-                  <img src="images/program-image-1.jpg" alt="" />
+                  <img src="images/pro3.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -642,7 +642,7 @@
             <div class="program-item-image">
               <a href="programs.php" data-cursor-text="View">
                 <figure>
-                  <img src="images/program-image-2.jpg" alt="" />
+                  <img src="images/pro5.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -781,7 +781,7 @@
             <div class="post-item-image">
               <a href="" data-cursor-text="View">
                 <figure>
-                  <img src="images/blo1.jpeg" alt="" />
+                  <img src="images/blo-1.jpeg" alt="" />
                 </figure>
               </a>
             </div>
@@ -826,7 +826,7 @@
             <div class="post-item-image">
               <a href="" data-cursor-text="View">
                 <figure>
-                  <img src="images/blo3.jpeg" alt="" />
+                  <img src="images/blo2.jpeg" alt="" />
                 </figure>
               </a>
             </div>
