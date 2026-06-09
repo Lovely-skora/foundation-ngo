@@ -226,7 +226,7 @@
                     <!-- What We Do Image Box End -->
                 </div>
 
-                <div class="col-xl-6">
+                <div class="col-xl-6" id="who-we-are">
                     <!-- What We Do Content Start -->
                     <div class="what-we-do-content">
                         <!-- Section Title Start -->
@@ -326,7 +326,7 @@
     <!-- What We Do Section End -->
 
     <!-- Our Impact Section Start -->
-    <div class="our-impact">
+    <div class="our-impact" id="our-journey">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -384,7 +384,7 @@
     </div>
     <!-- Our Impact Section End -->
 
-    <div class="our-approach">
+    <div class="our-approach" id="our-philosophy">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">
@@ -432,7 +432,7 @@
     </div>
 
     <!-- Our Approach Section Start -->
-    <div class="our-approach">
+    <div class="our-approach" id="our-approach">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">
@@ -527,7 +527,7 @@
     </div>
     <!-- Our Approach Section End -->
 
-    <div class="why-choose-us">
+    <div class="why-choose-us" id="our-strength">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -678,7 +678,7 @@
     </div>
 
     <!-- How We Work Section Start -->
-    <div class="how-we-work">
+    <div class="how-we-work" id="special-initiative">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">
@@ -742,7 +742,7 @@
     </div>
     <!-- How We Work Section End -->
 
-    <div class="why-choose-us">
+    <div class="why-choose-us" id="sdg-commitment">
         <div class="container">
             <div class="row ">
                 <div class="col-xl-6">
@@ -876,7 +876,7 @@
 
 
     <!-- Our Testimonials Section Start -->
-    <div class="our-testimonials">
+    <div class="our-testimonials" id="together-for-change">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
@@ -895,16 +895,8 @@
     <!-- Our Testimonials Section End -->
 
 
-
-
-
-
-
-
-
-
     <!-- About US Section Start -->
-    <div class="about-us ">
+    <div class="about-us " id="our-foundation">
         <div class="container">
             <div class="row align-items-center">
 
@@ -1296,15 +1288,7 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-    <div class="our-approach" id="aims&objectives">
+    <div class="our-approach" id="aims-objectives">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">
@@ -1685,21 +1669,21 @@
                     </div>
                 </div>
 
-                   <div class="col-xl-12">
+                <div class="col-xl-12">
                     <!-- Our Causes Content Start -->
                     <div class="">
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Saving Lives</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">A Step Towards Better Emergency Healthcare</h2>
-                            
+
                             <img src="images/vehicle.jpeg" class="w-100" alt="">
                         </div>
                     </div>
                     <!-- Causes Content End -->
                 </div>
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="founding-vision">
                     <!-- Our Causes Content Start -->
                     <div class="">
                         <!-- Section Title Start -->
@@ -1725,7 +1709,7 @@
                     <!-- Causes Content End -->
                 </div>
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="supporters-message">
                     <!-- Our Causes Content Start -->
                     <div class="">
                         <!-- Section Title Start -->

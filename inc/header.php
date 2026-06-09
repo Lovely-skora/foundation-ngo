@@ -25,244 +25,250 @@
                                 <li class="nav-item "><a class="nav-link" href="index.php">Home</a>
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="about.php">About Us</a> -->
-                                <li class="nav-item submenu"><a class="nav-link" href="about.php">About Us</a>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link" href="about.php">About Us</a>
                                     <ul>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Who We Are</a>
+                                            <a class="nav-link" href="about.php#who-we-are">Who We Are</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Journey</a>
+                                            <a class="nav-link" href="about.php#our-journey">Our Journey</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Philosophy</a>
+                                            <a class="nav-link" href="about.php#our-philosophy">Our Philosophy</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Approach</a>
+                                            <a class="nav-link" href="about.php#our-approach">Our Approach</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Strength</a>
+                                            <a class="nav-link" href="about.php#our-strength">Our Strength</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Special Initiative</a>
+                                            <a class="nav-link" href="about.php#special-initiative">Special Initiative</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">SDG Commitment</a>
+                                            <a class="nav-link" href="about.php#sdg-commitment">SDG Commitment</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Together for Change</a>
+                                            <a class="nav-link" href="about.php#together-for-change">Together for Change</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Foundation</a>
+                                            <a class="nav-link" href="about.php#our-foundation">Our Foundation</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Vision</a>
+                                            <a class="nav-link" href="about.php#vision">Our Vision</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Mission</a>
+                                            <a class="nav-link" href="about.php#mission">Our Mission</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Aims & Objectives & Our Purpose</a>
+                                            <a class="nav-link" href="about.php#aims-objectives">Our Aims & Objectives & Our Purpose</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Message from the Founder</a>
+                                            <a class="nav-link" href="about.php#founder">Message from the Founder</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Founding Vission</a>
+                                            <a class="nav-link" href="about.php#founding-vision">Founding Vision</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">A message to our Supporters</a>
+                                            <a class="nav-link" href="about.php#supporters-message">A message to our Supporters</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="governing-body.php">Our Governing Body Team & Leadership</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">FAQ</a>
+                                            <a class="nav-link" href="faq.php#faq-section">FAQ</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item submenu"><a class="nav-link" href="programs.php">Our Programs</a>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link" href="programs.php">Our Programs</a>
                                     <ul>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">What We Do</a>
+                                            <a class="nav-link" href="programs.php#what-we-do">What We Do</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Women Empowerment</a>
+                                            <a class="nav-link" href="programs.php#women-empowerment">Women Empowerment</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Child Welfare, Education & Protection</a>
+                                            <a class="nav-link" href="programs.php#child-welfare">Child Welfare, Education & Protection</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Child Care Institution (CCI)</a>
+                                            <a class="nav-link" href="programs.php#cci">Child Care Institution (CCI)</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Specialised Adoption Agency (SAA)</a>
+                                            <a class="nav-link" href="programs.php#saa">Specialised Adoption Agency (SAA)</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Education, Literacy & Digital Inclusion</a>
+                                            <a class="nav-link" href="programs.php#education-digital">Education, Literacy & Digital Inclusion</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Healthcare, Nutrition & Community Wellbeing</a>
+                                            <a class="nav-link" href="programs.php#healthcare">Healthcare, Nutrition & Community Wellbeing</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Livelihood, Entrepreneurship & Skill Development</a>
+                                            <a class="nav-link" href="programs.php#livelihood">Livelihood, Entrepreneurship & Skill Development</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Disability Inclusion, Accessibility & Rehabilitation</a>
+                                            <a class="nav-link" href="programs.php#disability-inclusion">Disability Inclusion, Accessibility & Rehabilitation</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Environmental Sustainability & Climate Action</a>
+                                            <a class="nav-link" href="programs.php#environment">Environmental Sustainability & Climate Action</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Relief Rehabilitation & Humanitarian Support</a>
+                                            <a class="nav-link" href="programs.php#relief">Relief Rehabilitation & Humanitarian Support</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Youth Leadership & Community Participation</a>
+                                            <a class="nav-link" href="programs.php#youth-leadership">Youth Leadership & Community Participation</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">LGBTQ+ Inclusion & Community Empowerment Program</a>
+                                            <a class="nav-link" href="programs.php#lgbtq">LGBTQ+ Inclusion & Community Empowerment Program</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="our-values.php">Our values</a> -->
 
-                                <li class="nav-item submenu"><a class="nav-link" href="project-and-initiative.php">Project & Initiatives</a>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link" href="project-and-initiative.php">Project & Initiatives</a>
                                     <ul>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Initiative</a>
+                                            <a class="nav-link" href="project-and-initiative.php#our-initiatives">Our Initiative</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Flagship Initiative / Project</a>
+                                            <a class="nav-link" href="project-and-initiative.php#flagship-project">Flagship Initiative / Project</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Empowerment Project</a>
+                                            <a class="nav-link" href="project-and-initiative.php#empowerment-project">Empowerment Project</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Health Initiative</a>
+                                            <a class="nav-link" href="project-and-initiative.php#health-initiative">Health Initiative</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Inclusion Initiative</a>
+                                            <a class="nav-link" href="project-and-initiative.php#inclusion-initiative">Inclusion Initiative</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Sustainable Project</a>
+                                            <a class="nav-link" href="project-and-initiative.php#sustainability-project">Sustainable Project</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Humanitarian Project</a>
+                                            <a class="nav-link" href="project-and-initiative.php#humanitarian-project">Humanitarian Project</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Youth Development Project</a>
+                                            <a class="nav-link" href="project-and-initiative.php#youth-development">Youth Development Project</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Child Protection Initiative (CCI)</a>
+                                            <a class="nav-link" href="project-and-initiative.php#child-protection-initiative">Child Protection Initiative (CCI)</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Child Welfare & Adoption Services (SAA)</a>
+                                            <a class="nav-link" href="project-and-initiative.php#child-welfare-adoption">Child Welfare & Adoption Services (SAA)</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">LGBTQ+ Community Empowerment & Livelihood Initiative</a>
+                                            <a class="nav-link" href="project-and-initiative.php#lgbtq-empowerment">LGBTQ+ Community Empowerment & Livelihood Initiative</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="project-and-initiative.php">Project & Initiatives</a> -->
-                                <li class="nav-item submenu"><a class="nav-link" href="our-impact.php">Our Impact</a>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link" href="our-impact.php">Our Impact</a>
                                     <ul>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Child Protection & Rehabilitation</a>
+                                            <a class="nav-link" href="our-impact.php#child-protection-rehabilitation">Child Protection & Rehabilitation</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Specialized Adoption & Family Care</a>
+                                            <a class="nav-link" href="our-impact.php#specialized-adoption">Specialized Adoption & Family Care</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Women Empowerment & Livelihood</a>
+                                            <a class="nav-link" href="our-impact.php#women-empowerment-livelihood">Women Empowerment & Livelihood</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Education & Child Development</a>
+                                            <a class="nav-link" href="our-impact.php#education-child-development">Education & Child Development</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Healthcare & Community Well-being</a>
+                                            <a class="nav-link" href="our-impact.php#healthcare-wellbeing">Healthcare & Community Well-being</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Disability Inclusion & Accessibility</a>
+                                            <a class="nav-link" href="our-impact.php#disability-inclusion">Disability Inclusion & Accessibility</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Environment & Climate Action</a>
+                                            <a class="nav-link" href="our-impact.php#environment-climate">Environment & Climate Action</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Humanitarian Relief & Community Support</a>
+                                            <a class="nav-link" href="our-impact.php#humanitarian-relief">Humanitarian Relief & Community Support</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">LGBTQ+ Community Inclusion & Livelihood Impact</a>
+                                            <a class="nav-link" href="our-impact.php#lgbtq-impact">LGBTQ+ Community Inclusion & Livelihood Impact</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Child Protection Impact</a>
+                                            <a class="nav-link" href="our-impact.php#child-protection-impact">Child Protection Impact</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Family Based Care Impact</a>
+                                            <a class="nav-link" href="our-impact.php#family-based-care-impact">Family Based Care Impact</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Voices of Impact</a>
+                                            <a class="nav-link" href="our-impact.php#voices-of-impact">Voices of Impact</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Approach</a>
+                                            <a class="nav-link" href="our-impact.php#our-approach">Our Approach</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="our-impact.php">Our Impact</a> -->
-                                <li class="nav-item submenu"><a class="nav-link" href="get-involved.php">Get Involved</a>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link" href="get-involved.php">Get Involved</a>
                                     <ul>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Volunteer Opportunities</a>
+                                            <a class="nav-link" href="get-involved.php#volunteer-opportunities">Volunteer Opportunities</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Support Our Mission</a>
+                                            <a class="nav-link" href="get-involved.php#support-mission">Support Our Mission</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Partnership & Collaboration</a>
+                                            <a class="nav-link" href="get-involved.php#partnership-collaboration">Partnership & Collaboration</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Youth Participation</a>
+                                            <a class="nav-link" href="get-involved.php#youth-participation">Youth Participation</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Professional Contribution</a>
+                                            <a class="nav-link" href="get-involved.php#professional-contribution">Professional Contribution</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Community Engagement</a>
+                                            <a class="nav-link" href="get-involved.php#community-engagement">Community Engagement</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Get In Touch</a>
+                                            <a class="nav-link" href="get-involved.php#get-in-touch">Get In Touch</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="get-involved.php">Get Involved</a> -->
                                 <li class="nav-item"><a class="nav-link" href="governing-body.php">Governing Body & Leadership</a>
 
-                                <li class="nav-item submenu"><a class="nav-link" href="resources.php">Resources</a>
+                                <li class="nav-item submenu">
+                                    <a class="nav-link" href="resources.php">Resources</a>
                                     <ul>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Document Center</a>
+                                            <a class="nav-link" href="resources.php#document-center">Document Center</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Annual Reports</a>
+                                            <a class="nav-link" href="resources.php#annual-reports">Annual Reports</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Policies & Governance</a>
+                                            <a class="nav-link" href="resources.php#policies-governance">Policies & Governance</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Blog & Articles</a>
+                                            <a class="nav-link" href="resources.php#blog-articles">Blog & Articles</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Events & Programs</a>
+                                            <a class="nav-link" href="resources.php#events-programs">Events & Programs</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Media Center</a>
+                                            <a class="nav-link" href="resources.php#media-center">Media Center</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Downloads</a>
+                                            <a class="nav-link" href="resources.php#downloads">Downloads</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Privacy & Security</a>
+                                            <a class="nav-link" href="resources.php#privacy-security">Privacy & Security</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="">Our Commitment</a>
+                                            <a class="nav-link" href="resources.php#our-commitment">Our Commitment</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -270,7 +276,7 @@
                                 <!-- <li class="nav-item"><a class="nav-link" href="donate-now.php">Donate Now</a> -->
                                 <!-- <li class="nav-item"><a class="nav-link" href="faq.php">Faq</a> -->
 
-                                    <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
                                 <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
                                     <ul>

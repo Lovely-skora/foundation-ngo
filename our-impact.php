@@ -83,7 +83,7 @@
 
 
 
-    <div class="our-impact">
+    <div class="our-impact" id="our-impact-main">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -175,10 +175,10 @@
 
 
 
-    <div class="why-choose-us">
+    <div class="why-choose-us" >
         <div class="container">
             <div class="row">
-                <div class="col-xl-7 ">
+                <div class="col-xl-7 " id="child-protection-rehabilitation">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">AREAS OF IMPACT</span>
@@ -229,7 +229,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12"  id="specialized-adoption">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">2. SPECIALIZED ADOPTION & FAMILY CARE</h2>
@@ -272,7 +272,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="women-empowerment-livelihood">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">3. WOMEN EMPOWERMENT & LIVELIHOOD</h2>
@@ -317,7 +317,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="education-child-development">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">4. EDUCATION & CHILD DEVELOPMENT</h2>
@@ -362,7 +362,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="healthcare-wellbeing">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">5. HEALTHCARE & COMMUNITY WELLBEING</h2>
@@ -407,7 +407,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="disability-inclusion">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">6. DISABILITY INCLUSION & ACCESSIBILITY</h2>
@@ -452,7 +452,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="environment-climate">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">7. ENVIRONMENT & CLIMATE ACTION</h2>
@@ -497,7 +497,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="humanitarian-relief">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">8. HUMANITARIAN RELIEF & COMMUNITY SUPPORT</h2>
@@ -537,7 +537,7 @@
 
             <div class="row">
 
-            <div class="col-xl-12">
+            <div class="col-xl-12" id="lgbtq-impact">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">INCLUSION IMPACT</span>
@@ -551,7 +551,7 @@ Life Foundation has reached and engaged more than 250 members of transgender and
                 </div>
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="child-protection-impact">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">CHILD PROTECTION IMPACT</span>
@@ -563,7 +563,7 @@ Life Foundation has reached and engaged more than 250 members of transgender and
                     </div>
                 </div>
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="family-based-care-impact">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">FAMILY-BASED CARE IMPACT</span>
@@ -584,7 +584,7 @@ Life Foundation has reached and engaged more than 250 members of transgender and
     <div class="our-approach">
         <div class="container">
             <div class="row section-row align-items-center">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="voices-of-impact">
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">VOICES OF IMPACT</span>
@@ -627,7 +627,7 @@ Life Foundation has reached and engaged more than 250 members of transgender and
 
 
 
-    <div class="our-approach">
+    <div class="our-approach"  id="our-approach">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">

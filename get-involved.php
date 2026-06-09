@@ -83,11 +83,9 @@
 
 
 
-    <div class="our-impact">
+    <div class="our-impact" id="get-involved-main">
         <div class="container">
             <div class="row">
-
-
                 <div class="col-xl-12">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
@@ -117,10 +115,10 @@
 
 
 
-    <div class="why-choose-us">
+    <div class="why-choose-us" >
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 ">
+                <div class="col-xl-12 " id="volunteer-opportunities">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">VOLUNTEER
@@ -249,7 +247,7 @@
 
             <div class="row mt-3">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="support-mission">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">SUPPORT OUR MISSION</span>
@@ -316,7 +314,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="partnership-collaboration">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">PARTNERSHIP & COLLABORATION</span>
@@ -358,7 +356,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="youth-participation">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">YOUTH PARTICIPATION</span>
@@ -395,7 +393,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="professional-contribution">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">PROFESSIONAL CONTRIBUTION</span>
@@ -448,7 +446,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="community-engagement">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">COMMUNITY ENGAGEMENT</span>
@@ -540,7 +538,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="get-in-touch">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Get In Touch</span>
