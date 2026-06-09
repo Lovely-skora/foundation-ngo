@@ -106,11 +106,11 @@
 
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="document-center">
                     <!-- Our Impact Content Start -->
-                    <div class="our-impact-content">
+                    <div class="our-impact-content" >
                         <!-- Section title Start -->
-                        <div class="section-title">
+                        <div class="section-title" id="document-center">
                             <span class="section-sub-title wow fadeInUp">DOCUMENT CENTER</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Organizational Documents & Legal Information</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s ">Life Foundation maintains transparency and accountability by making important organizational and legal documents accessible for public information and institutional reference.</p>
@@ -172,7 +172,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" id="annual-reports">
 
                                 <div class="document-card">
                                     <h3>Annual Reports</h3>
@@ -203,7 +203,7 @@
                                 </div>
                             </div>
 
-                             <div class="col-lg-6">
+                            <div class="col-lg-6">
 
                                 <div class="document-card">
                                     <h3>Audit Reports</h3>
@@ -233,7 +233,7 @@
 
                                 </div>
                             </div>
-                            
+
 
                             <div class="col-lg-6">
                                 <div class="document-card">
@@ -363,7 +363,7 @@
 
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="policies-governance">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->
@@ -429,7 +429,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="blog-articles">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->
@@ -457,7 +457,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="events-programs">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->
@@ -487,7 +487,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="media-center">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->
@@ -516,7 +516,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="downloads">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->
@@ -545,7 +545,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="privacy-security">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->
@@ -564,7 +564,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" id="our-commitment">
                     <!-- Our Impact Content Start -->
                     <div class="our-impact-content">
                         <!-- Section title Start -->

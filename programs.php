@@ -82,7 +82,7 @@
     <!-- Scrolling Ticker Section End -->
 
     <!-- About US Section Start -->
-    <div class="about-us">
+    <div class="about-us" id="what-we-do">
         <div class="container">
             <div class="row align-items-center">
 
@@ -155,7 +155,7 @@
     <!-- About US Section End -->
 
 
-    <div class="why-choose-us">
+    <div class="why-choose-us" id="women-empowerment">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 ">
@@ -218,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="child-welfare">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 02</span>
@@ -267,7 +267,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="cci">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 03</span>
@@ -340,7 +340,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="saa">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 04</span>
@@ -401,7 +401,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="education-digital">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 05</span>
@@ -454,7 +454,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="healthcare">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 06</span>
@@ -520,7 +520,7 @@
                         <figure> <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Livelihood, Entrepreneurship & Skill Development"> </figure>
                     </div>
                 </div>
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="livelihood">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title"> <span class="section-sub-title wow fadeInUp">Program 07</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque"> Livelihood, Entrepreneurship & Skill Development </h2>
@@ -558,7 +558,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="disability-inclusion">>
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 08</span>
@@ -623,7 +623,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="environment">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 09</span>
@@ -672,7 +672,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="lgbtq">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 11</span>
@@ -734,7 +734,7 @@
 
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="relief">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 11</span>
@@ -799,7 +799,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="youth-leadership">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 11</span>

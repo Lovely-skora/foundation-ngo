@@ -83,7 +83,7 @@
     <!-- Scrolling Ticker Section End -->
 
     <!-- About US Section Start -->
-    <div class="about-us">
+    <div class="about-us" id="our-initiatives">
         <div class="container">
             <div class="row align-items-center">
 
@@ -128,7 +128,7 @@
     <div class="why-choose-us">
         <div class="container">
             <div class="row">
-                <div class="col-xl-7 ">
+                <div class="col-xl-7 " id="flagship-project">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Flagship Project</span>
@@ -186,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="empowerment-project">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">EMPOWERMENT PROJECT</span>
@@ -238,7 +238,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="health-initiative">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">HEALTH INITIATIVE</span>
@@ -298,7 +298,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-5">
+                <div class="col-xl-5" id="inclusion-initiative">
                     <div class="mb-4">
                         <figure>
                             <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Empowering Persons with Disabilities">
@@ -358,7 +358,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="sustainability-project">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">SUSTAINABILITY PROJECT</span>
@@ -426,7 +426,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7"  id="humanitarian-project">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">HUMANITARIAN PROJECT</span>
@@ -478,7 +478,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="youth-development">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">YOUTH DEVELOPMENT</span>
@@ -538,7 +538,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-5">
+                <div class="col-xl-5" >
                     <div class="mb-4">
                         <figure>
                             <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI)">
@@ -546,7 +546,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="child-protection-initiative">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">CHILD PROTECTION INITIATIVE</span>
@@ -609,8 +609,8 @@
 
 
             <div class="row">
-                <div class="col-xl-7">
-                    <div class="why-choose-us-content mb-4">
+                <div class="col-xl-7 " id="child-welfare-adoption">
+                    <div class="why-choose-us-content mb-4" >
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">CHILD WELFARE & ADOPTION SERVICES</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">
@@ -708,7 +708,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7" id="lgbtq-empowerment">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">INCLUSION & LIVELIHOOD INITIATIVE</span>
