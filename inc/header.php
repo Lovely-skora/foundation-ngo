@@ -274,16 +274,16 @@
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="resources.php">Resources</a> -->
                                 <!-- <li class="nav-item"><a class="nav-link" href="donate-now.php">Donate Now</a> -->
-                                <!-- <li class="nav-item"><a class="nav-link" href="faq.php">Faq</a> -->
+                                <li class="nav-item d-lg-none d-block"><a class="nav-link" href="faq.php">Faq</a>
 
                                 <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
-                                <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
+                                <li class="nav-item submenu d-lg-none d-block"><a class="nav-link" href="#">Gallery</a>
                                     <ul>
                                         <li class="nav-item"><a class="nav-link" href="image-gallery.php">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.php">Video Gallery</a></li>
+                                        <!-- <li class="nav-item"><a class="nav-link" href="video-gallery.php">Video Gallery</a></li> -->
                                     </ul>
-                                </li> -->
+                                </li>
 
                                 <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
                                     <ul>
@@ -299,7 +299,7 @@
                                         <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
                                     </ul>
                                 </li> -->
-                                <!-- <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li> -->
+                                <li class="nav-item d-lg-none d-block"><a class="nav-link" href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
 

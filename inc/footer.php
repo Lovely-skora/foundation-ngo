@@ -23,9 +23,11 @@
                             <h2>Quick Links</h2>
                             <ul>
                                 <li><a href="about.php">About Us</a></li>
-                                <li><a href="">Programs</a></li>
-                                <li><a href="testimonials.php">Gallery</a></li>
-                                <li><a href="team.php">Donate</a></li>
+                                <li><a href="governing-body.php">Governing Body & Leadership</a></li>
+                                <li><a href="programs.php">Programs</a></li>
+                                <li><a href="project-and-initiative.php">Projects & Initiatives</a></li>
+                                <li><a href="our-impact.php">Our Impact</a></li>
+                                <li><a href="get-involved.php">Get Involved</a></li>
                                 <li><a href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
@@ -35,12 +37,13 @@
                         <div class="footer-links">
                             <h2>Our Links</h2>
                             <ul>
-                                <li><a href="donate-now.php">Donate Now</a></li>
+                                <li><a href="resources.php">resources</a></li>
+                                <li><a href="">News & Updates</a></li>
                                 <li><a href="faq.php">Faq</a></li>
-                                <li><a href="governing-body.php">Governing Body & Leadership</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                                 <li><a href="image-gallery.php">Image Gallery</a></li>
-                                <li><a href="video-gallery.php">Video Gallery</a></li>
+                                <li><a href="">Donate Now</a></li>
+                                <!-- <li><a href="video-gallery.php">Video Gallery</a></li> -->
                             </ul>
                         </div>
                         <!-- Footer Links End -->
