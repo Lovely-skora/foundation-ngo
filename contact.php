@@ -143,7 +143,7 @@
                         <!-- Contact Us Image Start -->
                         <div class="contact-us-image">
                             <figure class="image-anime reveal">
-                                <img src="images/contact-us-image.jpg" alt="">
+                                <img src="images/contact.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- Contact Us Image End -->
@@ -153,8 +153,8 @@
                             <!-- Section Title Start -->
                             <div class="section-title">
                                 <span class="section-sub-title wow fadeInUp">Get In Touch</span>
-                                <h2 class="text-anime-style-3" data-cursor="-opaque">Contact Us Today</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.2s">We'd love to hear from you! Whether you want to volunteer, support our programs, or learn more about our initiatives.</p>  
+                                <!-- <h2 class="text-anime-style-3" data-cursor="-opaque">Contact Us Today</h2> -->
+                                <!-- <p class="wow fadeInUp" data-wow-delay="0.2s">We'd love to hear from you! Whether you want to volunteer, support our programs, or learn more about our initiatives.</p>   -->
                             </div>
                             <!-- Section Title End -->
                             
@@ -227,7 +227,8 @@
                 <div class="col-lg-12">
                     <!-- Google Map Start -->
                     <div class="google-map-iframe wow fadeInUp" data-wow-delay="0.4s">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3408.5973457188106!2d92.83666377540837!3d25.999795977203092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDU5JzU5LjMiTiA5MsKwNTAnMjEuMyJF!5e1!3m2!1sen!2sin!4v1781357100815!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- Google Map End -->
                 </div>

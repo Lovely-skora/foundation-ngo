@@ -26,7 +26,7 @@
     <!-- Header End -->
 
     <!-- Page Header Section Start -->
-    <div class="page-header dark-section parallaxie">
+    <div class="page-header dark-section parallaxie" style="background-image: url('images/program-banner.jpeg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -106,7 +106,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-1.jpg" alt="">
+                                    <img src="images/do1.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -125,7 +125,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-2.jpg" alt="">
+                                    <img src="images/do2.jpeg" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -173,7 +173,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure class="">
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="">
+                            <img src="images/p-1.jpeg" class="w-100 rounded-4 shadow" alt="">
                         </figure>
                     </div>
                 </div>
@@ -213,7 +213,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure class="">
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="">
+                            <img src="images/p-2.jpeg" class="w-100 rounded-4 shadow" alt="">
                         </figure>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution">
+                            <img src="images/p-3.jpeg" class="w-100 rounded-4 shadow" alt="Child Care Institution">
                         </figure>
                     </div>
                 </div>
@@ -335,7 +335,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Specialized Adoption Agency">
+                            <img src="images/p-4.jpeg" class="w-100 rounded-4 shadow" alt="Specialized Adoption Agency">
                         </figure>
                     </div>
                 </div>
@@ -396,7 +396,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Education, Literacy & Digital Inclusion">
+                            <img src="images/p-5.jpeg" class="w-100 rounded-4 shadow" alt="Education, Literacy & Digital Inclusion">
                         </figure>
                     </div>
                 </div>
@@ -480,7 +480,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Healthcare, Nutrition & Community Wellbeing">
+                            <img src="images/p-6.jpeg" class="w-100 rounded-4 shadow" alt="Healthcare, Nutrition & Community Wellbeing">
                         </figure>
                     </div>
                 </div>
@@ -517,7 +517,7 @@
             <div class="row">
                 <div class="col-xl-5">
                     <div class="mb-4">
-                        <figure> <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Livelihood, Entrepreneurship & Skill Development"> </figure>
+                        <figure> <img src="images/p-7.jpeg" class="w-100 rounded-4 shadow" alt="Livelihood, Entrepreneurship & Skill Development"> </figure>
                     </div>
                 </div>
                 <div class="col-xl-7" id="livelihood">
@@ -558,7 +558,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-7" id="disability-inclusion">>
+                <div class="col-xl-7" id="disability-inclusion">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Program 08</span>
@@ -580,7 +580,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Disability Inclusion, Accessibility & Rehabilitation">
+                            <img src="images/p-8.jpeg" class="w-100 rounded-4 shadow" alt="Disability Inclusion, Accessibility & Rehabilitation">
                         </figure>
                     </div>
                 </div>
@@ -618,7 +618,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Environmental Sustainability & Climate Action">
+                            <img src="images/p-9.jpeg" class="w-100 rounded-4 shadow" alt="Environmental Sustainability & Climate Action">
                         </figure>
                     </div>
                 </div>
@@ -675,7 +675,7 @@
                 <div class="col-xl-7" id="lgbtq">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 11</span>
+                            <span class="section-sub-title wow fadeInUp">Program 10</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">
                                 LGBTQ+ Inclusion & Community Empowerment Program
                             </h2>
@@ -696,7 +696,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Relief, Rehabilitation & Humanitarian Support">
+                            <img src="images/p-10.jpeg" class="w-100 rounded-4 shadow" alt="Relief, Rehabilitation & Humanitarian Support">
                         </figure>
                     </div>
                 </div>
@@ -756,7 +756,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Relief, Rehabilitation & Humanitarian Support">
+                            <img src="images/p-11.jpeg" class="w-100 rounded-4 shadow" alt="Relief, Rehabilitation & Humanitarian Support">
                         </figure>
                     </div>
                 </div>
@@ -794,7 +794,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Youth Leadership & Community Participation">
+                            <img src="images/p-12.jpeg" class="w-100 rounded-4 shadow" alt="Youth Leadership & Community Participation">
                         </figure>
                     </div>
                 </div>
@@ -802,7 +802,7 @@
                 <div class="col-xl-7" id="youth-leadership">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Program 11</span>
+                            <span class="section-sub-title wow fadeInUp">Program 12</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">
                                 Youth Leadership & Community Participation
                             </h2>
@@ -929,7 +929,7 @@
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Donate now</a>
+                                <a href="contact.php" class="btn-default btn-highlighted">Contact Us</a>
                             </div>
                         </div>
                     </div>

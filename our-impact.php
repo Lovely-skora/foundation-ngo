@@ -92,7 +92,7 @@
                         <!-- Our Impact Images Start -->
                         <div class="our-impact-image-1">
                             <figure class="image-anime">
-                                <img src="images/our-impact-image-1.jpg" alt="">
+                                <img src="images/imp-1.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- Our Impact Images End -->
@@ -100,7 +100,7 @@
                         <!-- Our Impact Images Start -->
                         <div class="our-impact-image-2">
                             <figure class="image-anime">
-                                <img src="images/our-impact-image-2.jpg" alt="">
+                                <img src="images/imp-2.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- Our Impact Images End -->
@@ -175,7 +175,7 @@
 
 
 
-    <div class="why-choose-us" >
+    <div class="why-choose-us">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 " id="child-protection-rehabilitation">
@@ -193,7 +193,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure class="">
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="">
+                            <img src="images/impa.jpeg" class="w-100 rounded-4 shadow" alt="">
                         </figure>
                     </div>
                 </div>
@@ -229,13 +229,21 @@
 
             <div class="row">
 
-                <div class="col-xl-12"  id="specialized-adoption">
+                <div class="col-xl-7" id="specialized-adoption">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">2. SPECIALIZED ADOPTION & FAMILY CARE</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 Through the Specialized Adoption Agency (SAA), Life Foundation supports ethical, transparent, and legally compliant adoption services aimed at ensuring every child grows in a safe, loving, and supportive family environment. </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa2.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -272,7 +280,7 @@
 
             <div class="row">
 
-                <div class="col-xl-12" id="women-empowerment-livelihood">
+                <div class="col-xl-7" id="women-empowerment-livelihood">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">3. WOMEN EMPOWERMENT & LIVELIHOOD</h2>
@@ -280,6 +288,14 @@
                                 The organization promotes social and economic empowerment of women through awareness, leadership development, vocational training, and livelihood support initiatives.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa3.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -317,7 +333,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12" id="education-child-development">
+                <div class="col-xl-7" id="education-child-development">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">4. EDUCATION & CHILD DEVELOPMENT</h2>
@@ -325,6 +341,14 @@
                                 Life Foundation believes education is essential for empowerment and social transformation. The organization supports learning opportunities, educational awareness, and child development initiatives for vulnerable children and youth.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa4.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -362,7 +386,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12" id="healthcare-wellbeing">
+                <div class="col-xl-7" id="healthcare-wellbeing">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">5. HEALTHCARE & COMMUNITY WELLBEING</h2>
@@ -370,6 +394,14 @@
                                 The organization conducts healthcare awareness and community wellbeing programs aimed at promoting preventive healthcare, sanitation, nutrition, hygiene, and mental health awareness.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa5.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -398,16 +430,12 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
 
             <!-- Program 06 -->
 
             <div class="row">
-
-
-                <div class="col-xl-12" id="disability-inclusion">
+                <div class="col-xl-7" id="disability-inclusion">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">6. DISABILITY INCLUSION & ACCESSIBILITY</h2>
@@ -415,6 +443,14 @@
                                 Life Foundation works towards promoting dignity, inclusion, accessibility, equal rights, and rehabilitation support for persons with disabilities.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa6.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -450,9 +486,7 @@
             <!-- Program 07 -->
 
             <div class="row">
-
-
-                <div class="col-xl-12" id="environment-climate">
+                <div class="col-xl-7" id="environment-climate">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">7. ENVIRONMENT & CLIMATE ACTION</h2>
@@ -460,6 +494,14 @@
                                 The organization actively promotes environmental conservation, sanitation awareness, climate responsibility, and sustainable community practices.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa7.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -497,7 +539,7 @@
             <div class="row">
 
 
-                <div class="col-xl-12" id="humanitarian-relief">
+                <div class="col-xl-7" id="humanitarian-relief">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">8. HUMANITARIAN RELIEF & COMMUNITY SUPPORT</h2>
@@ -505,6 +547,14 @@
                                 Life Foundation provides humanitarian assistance and emergency support during natural disasters, emergencies, and crisis situations.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa8.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -537,21 +587,29 @@
 
             <div class="row">
 
-            <div class="col-xl-12" id="lgbtq-impact">
+                <div class="col-xl-7" id="lgbtq-impact">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">INCLUSION IMPACT</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">LGBTQ+ Community Inclusion & Livelihood Impact</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-Life Foundation has reached and engaged more than 250 members of transgender and LGBTQ+ communities across Assam and Manipur through listening circles, grassroots interactions, livelihood discussions, awareness initiatives, and inclusion-focused empowerment activities. </p>
+                                Life Foundation has reached and engaged more than 250 members of transgender and LGBTQ+ communities across Assam and Manipur through listening circles, grassroots interactions, livelihood discussions, awareness initiatives, and inclusion-focused empowerment activities. </p>
                             <p>The initiative has helped strengthen community participation, social inclusion, mental health conversations, livelihood planning, leadership development, and safe-space dialogue while promoting dignity, equality, acceptance, and empowerment for gender and sexuality minority communities.</p>
                             <p>Through collaborative partnerships and grassroots engagement, the organization continues working towards creating safer, more inclusive, and opportunity-driven environments for transgender and LGBTQ+ individuals.</p>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa9.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
+                    </div>
+                </div>
 
-                <div class="col-xl-12" id="child-protection-impact">
+
+                <div class="col-xl-7" id="child-protection-impact">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">CHILD PROTECTION IMPACT</span>
@@ -563,7 +621,15 @@ Life Foundation has reached and engaged more than 250 members of transgender and
                     </div>
                 </div>
 
-                <div class="col-xl-12" id="family-based-care-impact">
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa10.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-7" id="family-based-care-impact">
                     <div class="why-choose-us-content mb-4">
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">FAMILY-BASED CARE IMPACT</span>
@@ -572,6 +638,14 @@ Life Foundation has reached and engaged more than 250 members of transgender and
                                 The Specialized Adoption Agency (SAA) operated by Life Foundation works towards ensuring care, rehabilitation, emotional support, and legal adoption services for orphaned, abandoned, and surrendered children.</p>
                             <p>The initiative aims to provide every child with the opportunity to grow in a loving, secure, supportive, and family-based environment through ethical and transparent adoption procedures.</p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="mb-4">
+                        <figure class="">
+                            <img src="images/impa11.jpeg" class="w-100 rounded-4 shadow" alt="">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -627,7 +701,7 @@ Life Foundation has reached and engaged more than 250 members of transgender and
 
 
 
-    <div class="our-approach"  id="our-approach">
+    <div class="our-approach" id="our-approach">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-12">
@@ -702,11 +776,11 @@ Life Foundation has reached and engaged more than 250 members of transgender and
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Become A Volunteer</a>
+                                <a href="get-involved.php" class="btn-default btn-highlighted">Become A Volunteer</a>
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Partner With Us</a>
+                                <a href="get-involved.php" class="btn-default btn-highlighted">Partner With Us</a>
                             </div>
                         </div>
                     </div>

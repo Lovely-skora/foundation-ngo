@@ -826,7 +826,7 @@
             <div class="post-item-image">
               <a href="" data-cursor-text="View">
                 <figure>
-                  <img src="images/blo2.jpeg" alt="" />
+                  <img src="images/blo3-a.jpeg" alt="" />
                 </figure>
               </a>
             </div>

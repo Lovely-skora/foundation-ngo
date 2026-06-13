@@ -104,7 +104,7 @@
                         <div class="about-us-image-box-1">
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-1.jpg" alt="">
+                                    <img src="images/ini-1.jpeg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                         <div class="about-us-image-box-2">
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-2.jpg" alt="">
+                                    <img src="images/ini-2.jpeg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure class="">
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="">
+                            <img src="images/i-1.jpeg" class="w-100 rounded-4 shadow" alt="">
                         </figure>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Women Skill Development & Livelihood Initiative">
+                            <img src="images/i-2.jpeg" class="w-100 rounded-4 shadow" alt="Women Skill Development & Livelihood Initiative">
                         </figure>
                     </div>
                 </div>
@@ -264,7 +264,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Health, Hygiene & Public Awareness Campaign">
+                            <img src="images/i-3.jpeg" class="w-100 rounded-4 shadow" alt="Health, Hygiene & Public Awareness Campaign">
                         </figure>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                 <div class="col-xl-5" id="inclusion-initiative">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Empowering Persons with Disabilities">
+                            <img src="images/i-4.jpeg" class="w-100 rounded-4 shadow" alt="Empowering Persons with Disabilities">
                         </figure>
                     </div>
                 </div>
@@ -384,7 +384,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Environmental Protection & Climate Awareness Initiative">
+                            <img src="images/i-5.jpeg" class="w-100 rounded-4 shadow" alt="Environmental Protection & Climate Awareness Initiative">
                         </figure>
                     </div>
                 </div>
@@ -421,7 +421,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Emergency Relief & Community Support Initiative">
+                            <img src="images/i-6.jpeg" class="w-100 rounded-4 shadow" alt="Emergency Relief & Community Support Initiative">
                         </figure>
                     </div>
                 </div>
@@ -504,7 +504,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Youth Leadership & Community Participation Program">
+                            <img src="images/i-7.jpeg" class="w-100 rounded-4 shadow" alt="Youth Leadership & Community Participation Program">
                         </figure>
                     </div>
                 </div>
@@ -541,7 +541,7 @@
                 <div class="col-xl-5" >
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI)">
+                            <img src="images/i-8.jpeg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI)">
                         </figure>
                     </div>
                 </div>
@@ -639,7 +639,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Specialized Adoption Agency (SAA)">
+                            <img src="images/i-9.jpeg" class="w-100 rounded-4 shadow" alt="Specialized Adoption Agency (SAA)">
                         </figure>
                     </div>
                 </div>
@@ -703,7 +703,7 @@
                 <div class="col-xl-5">
                     <div class="mb-4">
                         <figure>
-                            <img src="images/wo.jpg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI) - Children Home for Boys">
+                            <img src="images/i-10.jpeg" class="w-100 rounded-4 shadow" alt="Child Care Institution (CCI) - Children Home for Boys">
                         </figure>
                     </div>
                 </div>
@@ -768,7 +768,7 @@
                 <div class="col-xl-6 mt-4">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <h4>Vision & Objectives</h4>
+                            <h4>Vision</h4>
                             <p>
                                 The initiative envisions an inclusive society where transgender and LGBTQ+ individuals can live with dignity, equality, safety, opportunity, and social acceptance. </p>
                         </div>
@@ -778,7 +778,7 @@
                 <div class="col-xl-6">
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-content">
-                            <h4>Vision & Objectives</h4>
+                            <h4>Objectives</h4>
                             <p>Its objective is to strengthen grassroots inclusion, improve livelihood opportunities, promote mental wellbeing, encourage community participation, and support sustainable empowerment of gender and sexuality minority communities across Assam and Manipur.</p>
                         </div>
                     </div>
@@ -869,7 +869,7 @@
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Donate now</a>
+                                <a href="contact.php" class="btn-default btn-highlighted">Contact Us</a>
                             </div>
                         </div>
                     </div>
