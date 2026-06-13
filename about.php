@@ -1675,7 +1675,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">Saving Lives</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">A Step Towards Better Emergency Healthcare</h2>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Emergency Vehicle Donated by the Hon'ble Chief Minister of Assam, in recognition of our Social Welfare Activities for the needy people of the state !</h2>
 
                             <img src="images/vehicle.jpeg" class="w-100" alt="">
                         </div>
