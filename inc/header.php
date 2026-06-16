@@ -305,7 +305,7 @@
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.php" class="btn-default btn-highlighted">Donate Now</a>
+                            <a href="donation/index.php" class="btn-default btn-highlighted">Donate Now</a>
                         </div>
                         <!-- Header Btn End -->
                     </div>
@@ -363,7 +363,7 @@
         </a>
 
         <!-- Donate -->
-        <a href="" class="float-btn donate-btn" title="Donate">
+        <a href="donation/index.php" class="float-btn donate-btn" title="Donate">
             <i class="fas fa-heart"></i>
         </a>
 
@@ -377,20 +377,14 @@
         <span>Call Us</span>
         <i class="fas fa-phone-alt"></i>
     </a>
-
     <a href="https://wa.me/919862059664"
        target="_blank"
        class="float-btn whatsapp-btn">
-
         <span>WhatsApp</span>
         <i class="fab fa-whatsapp"></i>
     </a>
-
-    <a href="donate.php" class="float-btn donate-btn">
-
+    <a href="donation/index.php" class="float-btn donate-btn">
         <span>Donate Now</span>
         <i class="fas fa-heart"></i>
-
     </a>
-
 </div>

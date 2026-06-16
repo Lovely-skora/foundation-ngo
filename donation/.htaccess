@@ -1,0 +1,48 @@
+# ── Donation System — Apache Security Config ──────────────────
+Options -Indexes
+ServerSignature Off
+
+RewriteEngine On
+
+# ── www → non-www redirect ─────────────────────────────────────
+RewriteCond %{HTTP_HOST} ^www\.vwf\.org\.in [NC]
+RewriteRule ^ https://vwf.org.in%{REQUEST_URI} [L,R=301]
+
+# ── Force HTTPS ────────────────────────────────────────────────
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ── Protect sensitive directories ──────────────────────────────
+<FilesMatch "\.(log|md|sql|env|json|lock)$">
+    Require all denied
+</FilesMatch>
+
+# Block direct access to includes/, logs/, receipts/
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^includes/ - [F,L]
+    RewriteRule ^logs/     - [F,L]
+    RewriteRule ^receipts/ - [F,L]
+</IfModule>
+
+# ── Security headers ────────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# ── PHP hardening ───────────────────────────────────────────────
+<IfModule mod_php.c>
+    php_flag  display_errors        Off
+    php_flag  log_errors            On
+    php_value error_log             ../logs/php_errors.log
+    php_flag  expose_php            Off
+    php_value session.cookie_httponly 1
+    php_value session.cookie_secure   1
+    php_value session.cookie_samesite Lax
+    php_value session.use_strict_mode 1
+    php_value session.gc_maxlifetime  1800
+</IfModule>
