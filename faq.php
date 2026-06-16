@@ -26,7 +26,7 @@
     <!-- Header End -->
 
     <!-- Page Header Section Start -->
-    <div class="page-header dark-section parallaxie">
+    <div class="page-header dark-section parallaxie" style="background-image: url('images/faq-banner.jpeg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

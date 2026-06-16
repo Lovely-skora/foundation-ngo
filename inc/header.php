@@ -276,7 +276,7 @@
                                 <!-- <li class="nav-item"><a class="nav-link" href="donate-now.php">Donate Now</a> -->
                                 <li class="nav-item d-lg-none d-block"><a class="nav-link" href="faq.php">Faq</a>
 
-                                <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
                                 <li class="nav-item submenu d-lg-none d-block"><a class="nav-link" href="#">Gallery</a>
                                     <ul>
@@ -317,3 +317,80 @@
         </div>
     </header>
     <!-- Header End -->
+
+
+    <!-- Back to Top button -->
+    <a href="#" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", function() {
+
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add("show");
+            } else {
+                backToTop.classList.remove("show");
+            }
+
+        });
+
+        backToTop.addEventListener("click", function(e) {
+
+            e.preventDefault();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        });
+    </script>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+
+        <!-- Call -->
+        <a href="tel:+919862059664" class="float-btn call-btn" title="Call Us">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/+919862059664" target="_blank" class="float-btn whatsapp-btn" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!-- Donate -->
+        <a href="" class="float-btn donate-btn" title="Donate">
+            <i class="fas fa-heart"></i>
+        </a>
+
+    </div>
+
+
+
+    <div class="floating-buttons">
+
+    <a href="tel:+919862059664" class="float-btn call-btn">
+        <span>Call Us</span>
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <a href="https://wa.me/919862059664"
+       target="_blank"
+       class="float-btn whatsapp-btn">
+
+        <span>WhatsApp</span>
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="donate.php" class="float-btn donate-btn">
+
+        <span>Donate Now</span>
+        <i class="fas fa-heart"></i>
+
+    </a>
+
+</div>
