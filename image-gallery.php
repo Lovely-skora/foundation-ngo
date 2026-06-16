@@ -2,7 +2,7 @@
 require_once 'admin/db.php';
 
 $cats = $pdo->query(
-    'SELECT ic.id, ic.name, COUNT(gi.id) AS cnt
+  'SELECT ic.id, ic.name, COUNT(gi.id) AS cnt
      FROM image_categories ic
      INNER JOIN gallery_images gi ON gi.category_id = ic.id
      GROUP BY ic.id ORDER BY ic.name'
@@ -11,21 +11,21 @@ $cats = $pdo->query(
 $activeCat = isset($_GET['cat']) ? (int)$_GET['cat'] : 0;
 
 if ($activeCat) {
-    $stmt = $pdo->prepare(
-        'SELECT gi.filename, gi.caption, ic.name AS cat_name
+  $stmt = $pdo->prepare(
+    'SELECT gi.filename, gi.caption, ic.name AS cat_name
          FROM gallery_images gi
          JOIN image_categories ic ON ic.id = gi.category_id
          WHERE gi.category_id = ?
          ORDER BY gi.created_at DESC'
-    );
-    $stmt->execute([$activeCat]);
+  );
+  $stmt->execute([$activeCat]);
 } else {
-    $stmt = $pdo->query(
-        'SELECT gi.filename, gi.caption, ic.name AS cat_name
+  $stmt = $pdo->query(
+    'SELECT gi.filename, gi.caption, ic.name AS cat_name
          FROM gallery_images gi
          JOIN image_categories ic ON ic.id = gi.category_id
          ORDER BY gi.created_at DESC'
-    );
+  );
 }
 $images = $stmt->fetchAll();
 ?>
@@ -57,6 +57,7 @@ $images = $stmt->fetchAll();
       gap: 8px;
       padding: 24px 0 16px;
     }
+
     .gallery-filter-tabs a {
       padding: 7px 20px;
       border-radius: 30px;
@@ -67,12 +68,14 @@ $images = $stmt->fetchAll();
       text-decoration: none;
       transition: .2s;
     }
+
     .gallery-filter-tabs a.active,
     .gallery-filter-tabs a:hover {
       background: var(--primary-color, #e63528);
       border-color: var(--primary-color, #e63528);
       color: #fff;
     }
+
     .no-media-msg {
       text-align: center;
       padding: 60px 20px;
@@ -82,6 +85,7 @@ $images = $stmt->fetchAll();
     }
   </style>
 </head>
+
 <body>
 
   <!-- Header Start -->
@@ -89,7 +93,7 @@ $images = $stmt->fetchAll();
   <!-- Header End -->
 
   <!-- Page Header Section Start -->
-  <div class="page-header dark-section parallaxie">
+  <div class="page-header dark-section parallaxie" style="background-image: url('images/gall-banner.jpeg');">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -150,16 +154,16 @@ $images = $stmt->fetchAll();
 
       <!-- Category Filter Tabs -->
       <?php if (!empty($cats)): ?>
-      <div class="gallery-filter-tabs">
-        <a href="image-gallery.php" class="<?= $activeCat === 0 ? 'active' : '' ?>">All</a>
-        <?php foreach ($cats as $cat): ?>
-          <a href="image-gallery.php?cat=<?= $cat['id'] ?>"
-             class="<?= $activeCat === (int)$cat['id'] ? 'active' : '' ?>">
-            <?= htmlspecialchars($cat['name']) ?>
-            <small style="opacity:.7;">(<?= $cat['cnt'] ?>)</small>
-          </a>
-        <?php endforeach; ?>
-      </div>
+        <div class="gallery-filter-tabs">
+          <a href="image-gallery.php" class="<?= $activeCat === 0 ? 'active' : '' ?>">All</a>
+          <?php foreach ($cats as $cat): ?>
+            <a href="image-gallery.php?cat=<?= $cat['id'] ?>"
+              class="<?= $activeCat === (int)$cat['id'] ? 'active' : '' ?>">
+              <?= htmlspecialchars($cat['name']) ?>
+              <small style="opacity:.7;">(<?= $cat['cnt'] ?>)</small>
+            </a>
+          <?php endforeach; ?>
+        </div>
       <?php endif; ?>
 
       <!-- gallery section start -->
@@ -176,17 +180,17 @@ $images = $stmt->fetchAll();
             $src   = 'uploads/gallery/' . htmlspecialchars($img['filename']);
             $alt   = htmlspecialchars($img['caption'] ?: $img['cat_name']);
           ?>
-          <div class="col-lg-4 col-6">
-            <!-- Image Gallery start -->
-            <div class="photo-gallery wow fadeInUp" <?= $delay ? "data-wow-delay=\"{$delay}\"" : '' ?>>
-              <a href="<?= $src ?>" data-cursor-text="View">
-                <figure class="image-anime">
-                  <img src="<?= $src ?>" alt="<?= $alt ?>" loading="lazy">
-                </figure>
-              </a>
+            <div class="col-lg-4 col-6">
+              <!-- Image Gallery start -->
+              <div class="photo-gallery wow fadeInUp" <?= $delay ? "data-wow-delay=\"{$delay}\"" : '' ?>>
+                <a href="<?= $src ?>" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="<?= $src ?>" alt="<?= $alt ?>" loading="lazy">
+                  </figure>
+                </a>
+              </div>
+              <!-- Image Gallery end -->
             </div>
-            <!-- Image Gallery end -->
-          </div>
           <?php endforeach; ?>
         <?php endif; ?>
       </div>
@@ -225,4 +229,5 @@ $images = $stmt->fetchAll();
   <script src="js/function.js"></script>
 
 </body>
+
 </html>

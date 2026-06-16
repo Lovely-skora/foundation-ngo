@@ -519,15 +519,15 @@
 
                         <div class="d-flex flex-column flex-md-row gap-3">
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Become A Volunteer</a>
+                                <a href="get-involved.php" class="btn-default btn-highlighted">Become A Volunteer</a>
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Support Our Mission</a>
+                                <a href="get-involved.php" class="btn-default btn-highlighted">Support Our Mission</a>
                             </div>
 
                             <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.php" class="btn-default btn-highlighted">Partner With Us</a>
+                                <a href="get-involved.php" class="btn-default btn-highlighted">Partner With Us</a>
                             </div>
                         </div>
                     </div>

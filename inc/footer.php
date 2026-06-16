@@ -37,7 +37,7 @@
                         <div class="footer-links">
                             <h2>Our Links</h2>
                             <ul>
-                                <li><a href="resources.php">resources</a></li>
+                                <li><a href="resources.php">Resources</a></li>
                                 <li><a href="">News & Updates</a></li>
                                 <li><a href="faq.php">Faq</a></li>
                                 <li><a href="contact.php">Contact</a></li>

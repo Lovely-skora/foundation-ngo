@@ -18,8 +18,8 @@
   <?php include 'inc/header-links.php'; ?>
   <!-- Header-links Start -->
 
-  	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="css/mousecursor.css">
+  <!-- Mouse Cursor Css File -->
+  <link rel="stylesheet" href="css/mousecursor.css">
 
 
 </head>
@@ -29,96 +29,613 @@
   <?php include 'inc/header.php'; ?>
   <!-- Header End -->
 
+  <style>
+     /* ----- variables (matching original) ----- */
+        :root {
+            --white-color: #ffffff;
+            --accent-color: #f5b342;
+            --dark-divider-color: rgba(255, 255, 255, 0.15);
+            --divider-color: rgba(255, 255, 255, 0.06);
+        }
+
+        /* ----- hero slider container ----- */
+        .hero-slider-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            min-height: 600px;
+            overflow: hidden;
+            background: #0b1e1a;
+        }
+
+        /* slides container */
+        .hero-slides {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            will-change: transform;
+        }
+
+        /* each slide = full area with background image + overlay */
+        .hero-slide {
+            flex: 0 0 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        /* dark overlay (like original gradient) */
+        .hero-slide::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(270deg, transparent 27.97%, rgba(3, 53, 44, 0.90) 68.07%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* container inside slide (z-index above overlay) */
+        .hero-slide .container {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            padding: 0 30px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        /* ----- original hero content (reused) ----- */
+        .hero-sub-heading {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--dark-divider-color);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border-radius: 100px;
+            padding: 5px 20px 5px 5px;
+            margin-bottom: 15px;
+        }
+        .satisfy-client-images {
+            display: flex;
+            align-items: center;
+        }
+        .satisfy-client-image {
+            position: relative;
+            display: inline-block;
+            margin-left: -15px;
+            border: 1px solid var(--white-color);
+            border-radius: 50%;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .satisfy-client-image:first-child {
+            margin: 0;
+        }
+        .satisfy-client-image figure img {
+            width: 100%;
+            max-width: 40px;
+            border-radius: 50%;
+        }
+        .hero-sub-heading .satisfy-client-image {
+            margin-left: -10px;
+        }
+        .hero-sub-heading .satisfy-client-image:first-child {
+            margin-left: 0;
+        }
+        .hero-sub-heading .satisfy-client-image figure img {
+            max-width: 28px;
+        }
+        .satisfy-client-content p {
+            margin: 0;
+            font-size: 14px;
+            color: var(--white-color);
+        }
+
+        .section-title h1 {
+            font-size: clamp(2rem, 6vw, 4.2rem);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--white-color);
+            max-width: 900px;
+            margin: 40px 0 20px 0;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            margin-top: 80px;
+        }
+        .hero-body-content {
+            max-width: 560px;
+        }
+        .hero-content p {
+            font-size: 18px;
+            color: var(--white-color);
+            margin: 0;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        .hero-body-btn {
+            margin-top: 30px;
+        }
+        .btn-default {
+            display: inline-block;
+            background: var(--accent-color);
+            color: #0b1e1a;
+            font-weight: 600;
+            padding: 14px 42px;
+            border-radius: 60px;
+            font-size: 16px;
+            letter-spacing: 0.3px;
+            transition: 0.2s;
+            border: 1px solid transparent;
+        }
+        .btn-default:hover {
+            background: #e09e3a;
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(245, 179, 66, 0.3);
+        }
+
+        .hero-counter-box {
+            max-width: 335px;
+            border: 1px solid var(--dark-divider-color);
+            background: var(--divider-color);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 40px;
+            color: white;
+        }
+        .hero-counter-box h2 {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 1em;
+            color: var(--white-color);
+        }
+        .hero-counter-box h2 sup {
+            color: var(--accent-color);
+        }
+        .hero-counter-box h3 {
+            font-size: 20px;
+            color: var(--white-color);
+            margin: 15px 0 0;
+        }
+        .hero-counter-box p {
+            color: var(--white-color);
+            border-top: 1px solid var(--dark-divider-color);
+            padding-top: 20px;
+            margin: 40px 0 0;
+            font-size: 15px;
+            opacity: 0.8;
+        }
+
+        /* ----- slider navigation: arrows on sides, dots at bottom ----- */
+        .slider-controls {
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            z-index: 10;
+            pointer-events: none;
+        }
+        .slider-controls > * {
+            pointer-events: auto;
+        }
+        .slider-dots {
+            display: flex;
+            gap: 12px;
+        }
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(255,255,255,0.1);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .dot.active {
+            background: var(--accent-color);
+            transform: scale(1.25);
+            border-color: var(--accent-color);
+        }
+
+        /* side arrows - positioned left and right */
+        .slider-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(6px);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.2s;
+            z-index: 15;
+            pointer-events: auto;
+        }
+        .slider-arrow:hover {
+            background: var(--accent-color);
+            color: #0b1e1a;
+            border-color: var(--accent-color);
+        }
+        .slider-arrow.prev {
+            left: 20px;
+        }
+        .slider-arrow.next {
+            right: 20px;
+        }
+
+        /* hide side arrows on very small screens if needed, but keep them */
+        @media (max-width: 480px) {
+            .slider-arrow {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+            .slider-arrow.prev {
+                left: 10px;
+            }
+            .slider-arrow.next {
+                right: 10px;
+            }
+        }
+
+        /* small screens */
+        @media (max-width: 768px) {
+            .hero-slider-wrapper {
+                min-height: 700px;
+                height: auto;
+            }
+            .hero-slide {
+                min-height: 700px;
+                height: auto;
+                padding: 60px 0 100px;
+            }
+            .hero-body {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 40px;
+            }
+            .hero-counter-box {
+                max-width: 100%;
+                width: 100%;
+                padding: 30px;
+            }
+            .section-title h1 {
+                font-size: 2.2rem;
+            }
+            .slider-controls {
+                bottom: 20px;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .hero-sub-heading {
+                padding: 4px 14px 4px 4px;
+            }
+            .hero-body-content {
+                max-width: 100%;
+            }
+            .hero-counter-box h2 {
+                font-size: 32px;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero-slide {
+                min-height: 650px;
+                padding: 40px 0 80px;
+            }
+            .section-title h1 {
+                font-size: 1.8rem;
+            }
+            .hero-content p {
+                font-size: 16px;
+            }
+            .btn-default {
+                padding: 12px 30px;
+                font-size: 14px;
+            }
+        }
+
+        /* image-anime helper (original) */
+        .image-anime {
+            display: block;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        /* utility */
+        .wow {
+            visibility: visible;
+        }
+        .hero-ban {
+            width: 100%;
+        }
+        .hero-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .hero-col, .hero-col-2 {
+            width: 100%;
+        }
+        @media (min-width: 1200px) {
+            .hero-col {
+                width: 83.333%;
+            }
+        }
+  </style>
+
   <!-- Hero Section Start -->
-  <div class="hero dark-section parallaxie">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-10">
-          <!-- Hero Content Start -->
-          <div class="hero-content">
-            <!-- Hero Sub Heading Start -->
-            <div class="hero-sub-heading wow fadeInUp">
-              <!-- Satisfy Client Images Start -->
-              <div class="satisfy-client-images">
-                <div class="satisfy-client-image">
-                  <figure class="image-anime">
-                    <img src="images/author-1.jpg" alt="" />
-                  </figure>
-                </div>
-                <div class="satisfy-client-image">
-                  <figure class="image-anime">
-                    <img src="images/author-2.jpg" alt="" />
-                  </figure>
-                </div>
-                <div class="satisfy-client-image">
-                  <figure class="image-anime">
-                    <img src="images/author-3.jpg" alt="" />
-                  </figure>
-                </div>
-                <div class="satisfy-client-image">
-                  <figure class="image-anime">
-                    <img src="images/author-4.jpg" alt="" />
-                  </figure>
-                </div>
-              </div>
-              <!-- Satisfy Client Images End -->
+  <div class="hero-slider-wrapper" id="heroSliderWrapper">
 
-              <!-- Satisfy Client Content Start -->
-              <div class="satisfy-client-content">
-                <p>Driving Positive Change Worldwide</p>
-              </div>
-              <!-- Satisfy Client Content End -->
+        <!-- SLIDES CONTAINER -->
+        <div class="hero-slides" id="heroSlides">
+            <!-- slide 1 -->
+            <div class="hero-slide" style="background-image: url('images/banner.jpeg');">
+                <div class="container hero-ban">
+                    <div class="row hero-row">
+                        <div class="col-xl-10 hero-col" >
+                            <div class="hero-content-wrap">
+                                <!-- <div class="hero-sub-heading">
+                                    <div class="satisfy-client-images">
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/women/68.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/men/75.jpg" alt="volunteer" /></figure></div>
+                                    </div>
+                                    <div class="satisfy-client-content"><p>Driving Positive Change Worldwide</p></div>
+                                </div> -->
+                                <div class="section-title">
+                                    <h1>Empowering Communities, Transforming Lives</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 hero-col-2">
+                            <div class="hero-body">
+                                <div class="hero-body-content">
+                                    <div class="hero-content">
+                                        <p>Life Foundation is committed to building an inclusive, compassionate, and sustainable society through education, healthcare, empowerment, and humanitarian service.</p>
+                                    </div>
+                                    <div class="hero-body-btn">
+                                        <a href="#" class="btn-default">Donate now</a>
+                                    </div>
+                                </div>
+                                <div class="hero-counter-box">
+                                    <h2><span class="counter">180</span><sup>+</sup></h2>
+                                    <h3>Active Volunteers</h3>
+                                    <p>A passionate network volunteers working on the ground.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Hero Sub Heading End -->
 
-            <!-- Section Title Start -->
-            <div class="section-title">
-              <h1 class="text-anime-style-3" data-cursor="-opaque">
-                Empowering Communities, Transforming Lives
-              </h1>
+            <!-- slide 2 -->
+            <div class="hero-slide" style="background-image: url('images/banner-2.jpeg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-10">
+                            <div class="hero-content-wrap">
+                                <!-- <div class="hero-sub-heading">
+                                    <div class="satisfy-client-images">
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/men/45.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/women/22.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/men/67.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/women/90.jpg" alt="volunteer" /></figure></div>
+                                    </div>
+                                    <div class="satisfy-client-content"><p>Education for every child</p></div>
+                                </div> -->
+                                <div class="section-title">
+                                    <h1>Building Brighter Futures Through Learning</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hero-body">
+                                <div class="hero-body-content">
+                                    <div class="hero-content">
+                                        <p>Our educational programs reach remote villages, providing quality learning resources and teacher training to uplift entire communities.</p>
+                                    </div>
+                                    <div class="hero-body-btn">
+                                        <a href="#" class="btn-default">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="hero-counter-box">
+                                    <h2><span class="counter">340</span><sup>+</sup></h2>
+                                    <h3>Schools Supported</h3>
+                                    <p>Empowering young minds with knowledge and skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Section Title End -->
-          </div>
-          <!-- Hero Content End -->
+
+            <!-- slide 3 -->
+            <div class="hero-slide" style="background-image: url('images/banner-3.jpeg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-10">
+                            <div class="hero-content-wrap">
+                                <!-- <div class="hero-sub-heading">
+                                    <div class="satisfy-client-images">
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/women/33.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/men/42.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/women/11.jpg" alt="volunteer" /></figure></div>
+                                        <div class="satisfy-client-image"><figure class="image-anime"><img src="https://randomuser.me/api/portraits/men/88.jpg" alt="volunteer" /></figure></div>
+                                    </div>
+                                    <div class="satisfy-client-content"><p>Healthcare for all</p></div>
+                                </div> -->
+                                <div class="section-title">
+                                    <h1>Wellness & Dignity: Health Access for All</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hero-body">
+                                <div class="hero-body-content">
+                                    <div class="hero-content">
+                                        <p>Mobile health clinics, mental health support, and maternal care programs that reach underserved regions, ensuring no one is left behind.</p>
+                                    </div>
+                                    <div class="hero-body-btn">
+                                        <a href="#" class="btn-default">Get involved</a>
+                                    </div>
+                                </div>
+                                <div class="hero-counter-box">
+                                    <h2><span class="counter">12</span><sup>k+</sup></h2>
+                                    <h3>Patients Treated</h3>
+                                    <p>Free medical camps and health awareness drives.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-lg-12">
-          <!-- Hero Body Start -->
-          <div class="hero-body">
-            <!-- Hero Body Content Start -->
-            <div class="hero-body-content">
-              <!-- Hero Content Start -->
-              <div class="hero-content wow fadeInUp" data-wow-delay="0.2s">
-                <p>
-                  Life Foundation is committed to building an inclusive, compassionate, and sustainable society through education, healthcare, empowerment, and humanitarian service.
-                </p>
-              </div>
-              <!-- Hero Content End -->
+        <!-- controls: side arrows + bottom dots -->
+        <button class="slider-arrow prev" id="prevSlide" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-arrow next" id="nextSlide" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
 
-              <!-- Hero Body Button Start -->
-              <div class="hero-body-btn wow fadeInUp" data-wow-delay="0.4s">
-                <a href="contact.php" class="btn-default btn-highlighted">Donate now</a>
-              </div>
-              <!-- Hero Body Button End -->
-            </div>
-            <!-- Hero Body Content End -->
-
-            <!-- Hero Counter Box Start -->
-            <div class="hero-counter-box wow fadeInUp" data-wow-delay="0.2s">
-              <h2><span class="counter">180</span><sup>+</sup></h2>
-              <h3>Active Volunteers</h3>
-              <p>A passionate network volunteers working on the ground.</p>
-            </div>
-            <!-- Hero Counter Box End -->
-          </div>
-          <!-- Hero Body End -->
+        <div class="slider-controls">
+            <div class="slider-dots" id="sliderDots"></div>
         </div>
-      </div>
     </div>
-  </div>
   <!-- Hero Section End -->
+
+  <script>
+    (function() {
+            const slidesWrapper = document.getElementById('heroSlides');
+            const slides = slidesWrapper.querySelectorAll('.hero-slide');
+            const totalSlides = slides.length;
+            let currentIndex = 0;
+            let autoPlayInterval = null;
+            const delay = 6000;
+
+            const dotsContainer = document.getElementById('sliderDots');
+            const prevBtn = document.getElementById('prevSlide');
+            const nextBtn = document.getElementById('nextSlide');
+
+            // build dots
+            for (let i = 0; i < totalSlides; i++) {
+                const dot = document.createElement('span');
+                dot.className = 'dot' + (i === 0 ? ' active' : '');
+                dot.dataset.index = i;
+                dot.addEventListener('click', function() {
+                    goTo(parseInt(this.dataset.index));
+                });
+                dotsContainer.appendChild(dot);
+            }
+            const dots = dotsContainer.querySelectorAll('.dot');
+
+            function updateSlide(index) {
+                if (index < 0) index = totalSlides - 1;
+                if (index >= totalSlides) index = 0;
+                currentIndex = index;
+                slidesWrapper.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+                dots.forEach((dot, i) => {
+                    dot.classList.toggle('active', i === currentIndex);
+                });
+            }
+
+            function goTo(index) {
+                if (index === currentIndex) return;
+                updateSlide(index);
+                resetAutoPlay();
+            }
+
+            function nextSlide() {
+                goTo(currentIndex + 1);
+            }
+
+            function prevSlide() {
+                goTo(currentIndex - 1);
+            }
+
+            function startAutoPlay() {
+                if (autoPlayInterval) clearInterval(autoPlayInterval);
+                autoPlayInterval = setInterval(() => {
+                    nextSlide();
+                }, delay);
+            }
+
+            function resetAutoPlay() {
+                if (autoPlayInterval) {
+                    clearInterval(autoPlayInterval);
+                    autoPlayInterval = null;
+                }
+                startAutoPlay();
+            }
+
+            nextBtn.addEventListener('click', nextSlide);
+            prevBtn.addEventListener('click', prevSlide);
+
+            // touch / swipe
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const wrapper = document.getElementById('heroSliderWrapper');
+            wrapper.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+            wrapper.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                const diff = touchStartX - touchEndX;
+                if (Math.abs(diff) > 50) {
+                    if (diff > 0) nextSlide();
+                    else prevSlide();
+                }
+            }, { passive: true });
+
+            // keyboard arrows
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft') prevSlide();
+                else if (e.key === 'ArrowRight') nextSlide();
+            });
+
+            // pause on hover
+            wrapper.addEventListener('mouseenter', () => {
+                if (autoPlayInterval) {
+                    clearInterval(autoPlayInterval);
+                    autoPlayInterval = null;
+                }
+            });
+            wrapper.addEventListener('mouseleave', () => {
+                startAutoPlay();
+            });
+
+            updateSlide(0);
+            startAutoPlay();
+        })();
+  </script>
+  
 
   <!-- Our Scrolling Ticker Section Start -->
   <div class="our-scrolling-ticker">
@@ -393,7 +910,7 @@
                 </div>
                 <div class="why-choose-contact-content">
                   <h3>Call Us</h3>
-                  <p><a href="tel:123456789">+(123) 456 - 789</a></p>
+                  <p><a href="tel:+919862059664">+91 98620 59664</a></p>
                 </div>
               </div>
               <!-- Why Choosse Contact Box End -->
@@ -543,7 +1060,7 @@
 
       <div class="row">
 
-       <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6">
           <!-- Programs Item Start -->
           <div class="program-item wow fadeInUp" data-wow-delay="0.4s">
             <div class="program-item-image">
@@ -1146,23 +1663,16 @@
                     <div class="team-item-image">
                       <a href=" " data-cursor-text="View">
                         <figure>
-                          <img src="images/team-1.jpg" alt="">
+                          <img src="images/t-1.jpeg" alt="">
                         </figure>
                       </a>
                     </div>
-                    <div class="team-social-list">
-                      <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
+
                     <div class="team-item-content">
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href=" ">CSR Partners</a></h2>
+                      <h2><a href=" ">FCRA Partner</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1176,23 +1686,16 @@
                     <div class="team-item-image">
                       <a href=" " data-cursor-text="View">
                         <figure>
-                          <img src="images/team-1.jpg" alt="">
+                          <img src="images/t-2.jpeg" alt="">
                         </figure>
                       </a>
                     </div>
-                    <div class="team-social-list">
-                      <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
+
                     <div class="team-item-content">
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href=" ">FCRA Partners </a></h2>
+                      <h2><a href=" ">FCRA Collaborative Partner </a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1206,53 +1709,16 @@
                     <div class="team-item-image">
                       <a href=" " data-cursor-text="View">
                         <figure>
-                          <img src="images/team-1.jpg" alt="">
+                          <img src="images/t-3.jpeg" alt="">
                         </figure>
                       </a>
                     </div>
-                    <div class="team-social-list">
-                      <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
-                    <div class="team-item-content">
-                      <!-- <ul>
-                        <li>Program Director</li>
-                      </ul> -->
-                      <h2><a href=" ">Government Departments</a></h2>
-                    </div>
-                  </div>
-                  <!-- Testimonial Item End -->
-                </div>
-                <!-- Testimonial Slide End -->
 
-                <!-- Testimonial Slide Start -->
-                <div class="swiper-slide">
-                  <!-- Testimonial Item Start -->
-                  <div class="team-item wow fadeInUp">
-                    <div class="team-item-image">
-                      <a href=" " data-cursor-text="View">
-                        <figure>
-                          <img src="images/team-1.jpg" alt="">
-                        </figure>
-                      </a>
-                    </div>
-                    <div class="team-social-list">
-                      <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
                     <div class="team-item-content">
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href=" ">Volunteers</a></h2>
+                      <h2><a href=" ">CSR Partner</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1265,23 +1731,16 @@
                     <div class="team-item-image">
                       <a href=" " data-cursor-text="View">
                         <figure>
-                          <img src="images/team-1.jpg" alt="">
+                          <img src="images/t-4.jpeg" alt="">
                         </figure>
                       </a>
                     </div>
-                    <div class="team-social-list">
-                      <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
+
                     <div class="team-item-content">
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href=" ">Local Institutions</a></h2>
+                      <h2><a href=" ">Govt. Department</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
@@ -1293,27 +1752,156 @@
                     <div class="team-item-image">
                       <a href=" " data-cursor-text="View">
                         <figure>
-                          <img src="images/team-1.jpg" alt="">
+                          <img src="images/t-5.jpeg" alt="">
                         </figure>
                       </a>
                     </div>
-                    <div class="team-social-list">
-                      <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
+
                     <div class="team-item-content">
                       <!-- <ul>
                         <li>Program Director</li>
                       </ul> -->
-                      <h2><a href=" ">Donors</a></h2>
+                      <h2><a href=" ">Donor /Local Institution</a></h2>
                     </div>
                   </div>
                   <!-- Testimonial Item End -->
                 </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-6.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-6.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-7.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-8.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-9.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Govt.Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-10.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" "> Our Partners & Supporters</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-9.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Govt.Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-9.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Govt.Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="team-item wow fadeInUp">
+                    <div class="team-item-image">
+                      <a href=" " data-cursor-text="View">
+                        <figure>
+                          <img src="images/t-9.jpeg" alt="">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="team-item-content">
+                      <h2><a href=" ">Govt.Supporter</a></h2>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
